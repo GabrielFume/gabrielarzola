@@ -2,16 +2,7 @@
 /*
 ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
   WP-Card | Personal vCard & CV Resume Template
-––––––––––––––––––––––––––––––––––––––––––––––––––
-
-    - File           : main.js
-    - Desc           : Template - JavaScript
-    - Version        : 1.1
-    - Date           : 2017-03-01
-    - Author         : CODASTROID
-    - Author URI     : https://themeforest.net/user/codastroid
-
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+–––––––––––––––––––––––––
 */
 
 
