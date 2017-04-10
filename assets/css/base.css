@@ -295,7 +295,7 @@ label {
   color: #999;
 }
 .form-control:focus {
-  border-color: #2ed87b;
+  border-color: #2196F3;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
@@ -464,16 +464,16 @@ fieldset[disabled] .btn {
 }
 /* |–––––––––––––[ Default Button ]––––––––––––| */
 .btn {
-  background-color: #2ed87b;
+  background-color: #2196F3;
   color: #fff;
 }
 .btn.btn-link,
 .btn.btn-o {
-  color: #2ed87b;
+  color: #2196F3;
   background-color: transparent;
 }
 .btn.btn-o {
-  border-color: #2ed87b;
+  border-color: #2196F3;
 }
 .btn:hover,
 .btn.hover,
@@ -560,8 +560,8 @@ fieldset[disabled] .btn {
 .btn.btn-gray:active,
 .btn.btn-gray.active {
   color: #fff;
-  background-color: #2ed87b;
-  border-color: #2ed87b;
+  background-color: #2196F3;
+  border-color: #2196F3;
 }
 .btn.btn-gray.btn-link:hover,
 .btn.btn-gray.btn-link.hover,
@@ -569,7 +569,7 @@ fieldset[disabled] .btn {
 .btn.btn-gray.btn-link.focus,
 .btn.btn-gray.btn-link:active,
 .btn.btn-gray.btn-link.active {
-  color: #2ed87b;
+  color: #2196F3;
 }
 .btn.btn-gray.btn-o:hover,
 .btn.btn-gray.btn-o.hover,
@@ -577,11 +577,11 @@ fieldset[disabled] .btn {
 .btn.btn-gray.btn-o.focus,
 .btn.btn-gray.btn-o:active,
 .btn.btn-gray.btn-o.active {
-  border-color: #2ed87b;
+  border-color: #2196F3;
 }
 .btn.btn-rev {
   background-color: #fff;
-  color: #2ed87b;
+  color: #2196F3;
 }
 .btn.btn-rev.btn-link,
 .btn.btn-rev.btn-o {
@@ -597,7 +597,7 @@ fieldset[disabled] .btn {
 .btn.btn-rev.focus,
 .btn.btn-rev:active,
 .btn.btn-rev.active {
-  color: #2ed87b;
+  color: #2196F3;
   background-color: #fff;
   border-color: #fff;
 }
@@ -3176,7 +3176,7 @@ fieldset[disabled] .btn {
 }
 /* |––––––––––––––[ Text Styles ]––––––––––––––| */
 .color-green {
-  color: #2ed87b;
+  color: #2196F3;
 }
 .color-blue {
   color: #314555;
@@ -3221,7 +3221,7 @@ fieldset[disabled] .btn {
   color: #000;
 }
 .color-h-green:hover {
-  color: #2ed87b;
+  color: #2196F3;
 }
 .color-h-blue:hover {
   color: #314555;
@@ -3586,7 +3586,7 @@ fieldset[disabled] .btn {
 }
 /* |––––––––––––––[ Background Colors ]––––––––––––––| */
 .bg-green {
-  background-color: #2ed87b;
+  background-color: #2196F3;
 }
 .bg-blue {
   background-color: #314555;
@@ -3625,7 +3625,7 @@ fieldset[disabled] .btn {
   background-color: #000;
 }
 .bg-h-green:hover {
-  background-color: #2ed87b;
+  background-color: #2196F3;
 }
 .bg-h-blue:hover {
   background-color: #314555;

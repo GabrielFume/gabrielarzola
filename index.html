@@ -64,6 +64,37 @@
 	<!-- Template Stylesheet -->
 	<link href="assets/css/base.css" rel="stylesheet">
 	<link href="assets/css/style.css" rel="stylesheet">
+
+
+	<style>
+
+.parallax {
+    /* The image used */
+    background-image: url("assets/img/mac.jpg");
+
+    /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("assets/img/laptop.jpg");
+
+    /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+</style>
 	
 </head>
 <body id="body" class="wide-layout preloader-active">
@@ -103,15 +134,16 @@
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
                             <li class="active"><a class="page-scroll" href="#body" title="Home">Inicio</a></li>
+                            <li><a class="page-scroll" href="#habilidades" title="Experiences">Habilidades</a></li>
                             <li><a class="page-scroll" href="#experience_area" title="Experiences">Experiencia</a></li>
                             <li><a class="page-scroll" href="#education_area" title="Education">Educacion</a></li>
-                            <li class="dropdown">
+                            <!--li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Paginas</a>
                                 <ul class="dropdown-menu">
                                     <li><a href="portfolio.html" title="Portfolio">Portafolio</a></li>
                                     <li><a href="single_work.html" title="Single Portfolio">Blog</a></li>
                                 </ul>
-                            </li>
+                            </li-->
                             <li><a class="page-scroll" href="#contact_area" title="Contact Us">Contacto</a></li>
                         </ul>
 
@@ -127,7 +159,7 @@
 			<div class="page-container">
 
 	            <!-- Start Hero Area -->
-	            <section class="section hero-area t-center" id="home" data-bg-img="assets/img/mac.jpg">
+	            <section class="section hero-area t-center parallax" id="home" data-bg-img="assets/img/mac.jpg">
 		            <div class="container">
 			            <div class="hero-content mb-30">
 			            	<h2>Hola! Soy</h2>
@@ -158,7 +190,6 @@
 	                        	<div class="profile-img mb-15">
 	                            	<img src="assets/img/yo.jpg" alt="">
 	                            </div>
-	                            <h6 class="freelance-available t-uppercase"><i class="online-icon"></i>Available For Freelance</h6>
 	                        </div>
 	                        <div class="col-md-8">
 		                        <div class="profile-info">
@@ -175,7 +206,7 @@
 		                                <li><span>Skype : </span>gabriel_isaias</li>
 		                                <li><span>Website : </span>www.gabrielarzola.com</li>
 		                            </ul>
-		                            <a href="assets/download/cv.pdf" target="_blank" class="btn btn-lg btn-rounded mr-10 mb-15">Descarga mi CV</a>
+		                            <a href="assets/download/cv.pdf" target="_blank" class="btn btn-lg btn-rounded mr-10 mb-15 text-center">Descarga mi CV</a>
 		                            
 		                        </div>
 	                        </div>
@@ -185,7 +216,7 @@
 	            <!-- End About Me Area -->
 
 				<!-- Start My Skills Area -->
-				<section class="section my-skills-area clearfix pb-30">
+				<section class="section my-skills-area clearfix pb-30" id="habilidades">
 					<div class="container">
 						<div class="row pb-60">
 	                        <div class="col-lg-7 col-md-8 col-sm-10 col-xs-12 col-xs-center t-center">
@@ -310,14 +341,14 @@
             	<!-- End My Skills Area -->
 
 	            <!-- Start Get Quote Area -->
-	            <section class="section get-quote-area ptb-80" data-bg-img="assets/images/bg_01.jpg">
+	            <section class="section get-quote-area ptb-80 parallax2">
 	                <div class="row">
 	                    <div class="col-md-12">
 	                        <div class="get-quotes-content text-center color-white row">
 	                        	<div class="col-lg-7 col-md-8 col-sm-10 col-xs-center">
 		                           	<h2 class="mb-20 t-uppercase">Trabajemos por tu idea</h2>
 		                            <h6 class="mb-40">Todos tenemos una idea de negocio la cual queremos llevar acabo, trabajemos juntos para encontrar la mejor manera de realizarla, Tu pones la idea, Yo el codigo!.</h6>
-		                            <a class="btn btn-lg btn-rounded" href="index.html#contact">Contactame</a>
+		              
 		                        </div>
 	                        </div>
 	                    </div>
@@ -449,7 +480,8 @@
 	                    			</div>
 	                    		</div>
 	                    	</div>
-	                    	<div class="col-md-6" style="margin-left: 25%;">
+	                    	<div class="col-md-3"></div>
+	                    	<div class="col-md-6">
 	                    		<div class="experience-single">
 	                    			<img class="experience-img" src="assets/img/senades_logo_solo.png" alt="">
 	                    			<div class="experience-content">
@@ -812,19 +844,9 @@
 		                        <div class="single-author">
 		                            <div class="single-author-img">
 		                                <img src="assets/img/andry.jpg" alt="">
-		                                <div class="social-links">
-											<div class="social-table">
-												<ul class="list-inline">
-													<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-													<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-													<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-													<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-												</ul>
-											</div>
-										</div>
 		                            </div>
 		                            <div class="single-author-info">
-		                                <h4 class="mb-10"><a class="color-green t-uppercase" href="single_profile.html">Andry Sojo</a></h4>
+		                                <h4 class="mb-10 text-center"><a class="color-green t-uppercase" href="single_profile.html">Andry Sojo</a></h4>
 		                                <h6 class="mb-15">UX Designer</h6>
 		                                <p class="color-mid">Morbi iaculis, quam a facilisis condimentum, risus erat tincidunt dolor, ac interdum lorem urna non augue.</p>
 		                            </div>
@@ -834,19 +856,10 @@
 		                        <div class="single-author">
 		                            <div class="single-author-img">
 		                                <img src="assets/img/keiver.jpg" alt="">
-		                                <div class="social-links">
-											<div class="social-table">
-												<ul class="list-inline">
-													<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-													<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-													<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-													<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-												</ul>
-											</div>
-										</div>
+		                                
 		                            </div>
 		                            <div class="single-author-info">
-		                                <h4 class="mb-10"><a class="color-green t-uppercase" href="single_profile.html">Keiver Faneite</a></h4>
+		                                <h4 class="mb-10 text-center"><a class="color-green t-uppercase" href="single_profile.html">Keiver Faneite</a></h4>
 		                                <h6 class="mb-15">Full Stack Developer</h6>
 		                                <p class="color-mid">Morbi iaculis, quam a facilisis condimentum, risus erat tincidunt dolor, ac interdum lorem urna non augue.</p>
 		                            </div>
@@ -856,19 +869,10 @@
 		                        <div class="single-author">
 		                            <div class="single-author-img">
 		                                <img src="assets/img/lorena.jpg" alt="">
-		                                <div class="social-links">
-											<div class="social-table">
-												<ul class="list-inline">
-													<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-													<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-													<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-													<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-												</ul>
-											</div>
-										</div>
+		                                
 		                            </div>
 		                            <div class="single-author-info">
-		                                <h4 class="mb-10"><a class="color-green t-uppercase" href="single_profile.html">Lorena Tovar</a></h4>
+		                                <h4 class="mb-10 text-center"><a class="color-green t-uppercase" href="single_profile.html">Lorena Tovar</a></h4>
 		                                <h6 class="mb-15">UX Designer</h6>
 		                                <p class="color-mid">Morbi iaculis, quam a facilisis condimentum, risus erat tincidunt dolor, ac interdum lorem urna non augue.</p>
 		                            </div>
@@ -878,19 +882,10 @@
 		                        <div class="single-author">
 		                            <div class="single-author-img">
 		                                <img src="assets/img/gabriela.jpg" alt="">
-		                                <div class="social-links">
-											<div class="social-table">
-												<ul class="list-inline">
-													<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-													<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-													<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-													<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-												</ul>
-											</div>
-										</div>
+		                                
 		                            </div>
 		                            <div class="single-author-info">
-		                                <h4 class="mb-10"><a class="color-green t-uppercase" href="single_profile.html">Gabriela Piña</a></h4>
+		                                <h4 class="mb-10 text-center"><a class="color-green t-uppercase" href="single_profile.html">Gabriela Piña</a></h4>
 		                                <h6 class="mb-15">Digital Marketing Consulting</h6>
 		                                <p class="color-mid">Morbi iaculis, quam a facilisis condimentum, risus erat tincidunt dolor, ac interdum lorem urna non augue.</p>
 		                            </div>
@@ -900,6 +895,7 @@
 	            	</div>
 	            </section>
 	            <!-- End My Team Area -->
+
 
 	            <!-- Start Contact Us Area -->
 	            <section class="section contact-us-area ptb-60" id="contact_area">
@@ -912,7 +908,7 @@
 	            		<div class="row row-tb-15">
 							<div class="col-md-6">
 								<div class="contact-form">
-									<h3 class="mb-10">No dude en ponerse en contacto conmigo!</h3>
+									<h3 class="mb-10 text-center">Cantactame via correo electronico</h3>
 									<p class="color-mid mb-30">La comunicacion contigo es fundamental</p>
 									<form action="assets/php/contact.php" method="post" id="contactForm">
 										<div class="row row-tb-10">
@@ -938,7 +934,7 @@
 							</div>
 	            			<div class="col-md-6">
 								<div class="contact-info">
-									<h3 class="mb-10">Informacion de contacto</h3>
+									<h3 class="mb-10 text-center">Informacion de contacto</h3>
 									<p class="color-mid mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam officia accusamus qui est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam officia accusamus qui est.</p>
 									<ul class="contact-list mb-30">
 										<li>
@@ -983,6 +979,8 @@
 						</div>
 	            	</div>
 	            </section>
+
+
 	            <!-- End Contact Us Area -->
 
 	            <!-- Start Subscribe Area -->
@@ -1018,56 +1016,9 @@
 
 		<!-- –––––––––––––––[ FOOTER ]––––––––––––––– -->
 		<footer id="mainFooter" class="main-footer pt-10">
-		    <div class="container ptb-40">
-		        <div class="row row-tb-20 contact-boxes">
-	                <div class="col-md-3 col-sm-6 coll-xs-12">
-	                    <div class="contact-box contact-box-one">
-	                        <div class="contact-box-icon">
-	                        	<i class="lnr lnr-map-marker"></i>
-	                        </div>
-	                        <div class="contact-box-content">
-	                            <p class="mb-0">Wall Street 1870, NewYork, <br> United State Of America</p>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="col-md-3 col-sm-6 coll-xs-12">
-	                    <div class="contact-box contact-box-two">
-	                        <div class="contact-box-icon">
-	                        	<i class="lnr lnr-envelope"></i>
-	                        </div>
-	                        <div class="contact-box-content">
-	                            <p class="mb-0">johndoe@email.com</p>
-	                            <p class="mb-0"><a href="#">Online Support</a></p>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="col-md-3 col-sm-6 coll-xs-12">
-	                    <div class="contact-box contact-box-three">
-	                        <div class="contact-box-icon">
-	                        	<i class="lnr lnr-phone-handset"></i>
-	                        </div>
-	                        <div class="contact-box-content">
-	                        	<p class="mb-0">(324) 123-4567</p>
-	                            <p class="mb-0">(324) 234-5678</p>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="col-md-3 col-sm-6 coll-xs-12">
-	                    <div class="contact-box contact-box-four">
-	                        <div class="contact-box-icon">
-	                        	<i class="lnr lnr-calendar-full"></i>
-	                        </div>
-	                        <div class="contact-box-content">
-	                            <p class="mb-0">Mon - Fri 9.00 - 18.00</p>
-	                            <p class="mb-0">Sat - Sun 10.00 - 16.00</p>
-	                        </div>
-	                    </div>
-	                </div>
-		        </div>
-		    </div>
 		    <div class="sub-footer">
 		        <div class="container t-center">
-		            MADE WITH LOVE BY <a href="https://themeforest.net/user/codastroid">CODASTROID</a> © 2016. ALL RIGHTS RESERVED
+		           Si fallaste y no aprendiste fue una perdida de tiempo, no hay mejor aprendisaje de los errores cometidos © 2017. Todos los derechos reservados
 		        </div>
 		    </div>
         </footer>
@@ -1125,6 +1076,15 @@
 
     <!-- ======== Custom Template JavaScript ======== -->
     <script type="text/javascript" src="assets/js/main.js"></script>
+
+    <script type="text/javascript" src="assets/js/anima.js"></script>
+
+ 
+<script>
+	
+
+              
+</script>
 
 </body>
 

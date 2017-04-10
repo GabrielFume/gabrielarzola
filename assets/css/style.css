@@ -41,14 +41,14 @@
   position: relative;
   font-size: 15px;
   background-color: #e6fff1;
-  border-left-color: #2ed87b;
+  border-left-color: #2196F3;
   margin: 20px 0 30px 20px;
   padding: 30px 30px 40px 30px;
 }
 .block-quote:after {
   font-size: 20px;
   bottom: 10px;
-  color: #2ed87b;
+  color: #2196F3;
   content: "\f10e";
   font-family: fontawesome;
   position: absolute;
@@ -80,7 +80,7 @@
   bottom: 0px;
   width: 40px;
   height: 2px;
-  background: #2ed87b;
+  background: #2196F3;
 }
 
 /* Social Icons */
@@ -173,8 +173,8 @@
 }
 .page-pagination .page-numbers.current,
 .page-pagination a.page-numbers:hover {
-  border-color: #2ed87b;
-  background-color: #2ed87b;
+  border-color: #2196F3;
+  background-color: #2196F3;
   color: #fff;
 }
 
@@ -281,7 +281,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #2ed87b;
+  background-color: #2196F3;
   -webkit-animation: loaderAnim 2.4s infinite linear both;
   animation: loaderAnim 2.4s infinite linear both;
   -webkit-transform-origin: 100% 100%;
@@ -431,7 +431,7 @@
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   background-color: transparent;
-  color: #2ed87b;
+  color: #2196F3;
 }
 .navbar-default .dropdown-menu > li > a {
   padding: 10px 20px;
@@ -443,7 +443,7 @@
   color: #333;
 }
 .navbar-default .dropdown-menu {
-  border-top: 3px solid #2ed87b;
+  border-top: 3px solid #2196F3;
 }
 
 .navbar-toggle {
@@ -464,11 +464,11 @@
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: transparent;
-  border-color: #2ed87b;
+  border-color: #2196F3;
 }
 .navbar-default .navbar-toggle:hover .icon-bar,
 .navbar-default .navbar-toggle:focus .icon-bar{
-  background-color: #2ed87b;
+  background-color: #2196F3;
 }
 @media screen and (min-width: 800px) {
   .dropdown .dropdown-menu {
@@ -506,7 +506,7 @@
   .navbar-default .navbar-nav li.active a,
   .navbar-default .navbar-nav li a:hover {
     background-color: transparent;
-    color: #2ed87b;
+    color: #2196F3;
   }
   .navbar-default .navbar-brand {
     height: 60px;
@@ -552,8 +552,8 @@
 }
 .hero-area .hero-buttons .hire-me-btn {
   font-size: 15px;
-  border: 1px dashed #fff;
-  box-shadow: 0 0 0 4px #2ed87b;
+  /*border: 1px dashed #fff;*/
+  box-shadow: 0 0 0 4px #2196F3;
 }
 .hero-area .hero-buttons .hire-me-btn:hover {
   box-shadow: 0 0 0 4px #25c76f;
@@ -608,7 +608,7 @@
   height: 2px;
   width: 60px;
   display: block;
-  background-color: #2ed87b;
+  background-color: #2196F3;
   bottom: 0;
   left: 0;
 }
@@ -643,7 +643,7 @@
   bottom: 0;
   left: 0;
   width: 0;
-  background-color: #2ed87b;
+  background-color: #2196F3;
   -webkit-transition: width .6s ease;
   -moz-transition: width .6s ease;
   -o-transition: width .6s ease;
@@ -818,8 +818,8 @@
   margin-bottom: 10px;
 }
 .portfolio-filter .filter.active {
-  border-color: #2ed87b;
-  background-color: #2ed87b;
+  border-color: #2196F3;
+  background-color: #2196F3;
   color: #fff;
 }
 
@@ -843,7 +843,7 @@
 .experience-area .experience-single .date {
   display: inline-block;
   font-size: 11px;
-  background-color: #2ed87b;
+  background-color: #2196F3;
   color: #fff;
   padding: 2px 10px;
   margin-bottom: 12px;
@@ -884,7 +884,7 @@
   width: 12px;
   height: 12px;
   border-radius: 12px;
-  background-color: #2ed87b;
+  background-color: #2196F3;
   top: 20px;
   right: 50%;
   margin-right: -6px;
@@ -984,7 +984,7 @@
   }
   .timeline-date {
     font-size: 12px;
-    background-color: #2ed87b;
+    background-color: #2196F3;
     padding: 2px 10px;
     right: auto;
     top: 20px;
@@ -1053,7 +1053,7 @@
   position: absolute;
   text-align: center;
   text-transform: uppercase;
-  background-color: #2ed87b;
+  background-color: #2196F3;
   color: #fff;
   width: 100%;
   top: 0;
@@ -1199,7 +1199,7 @@
 }
 .blog-area .entry .entry-footer .btn:hover,
 .blog-area .entry .entry-footer .btn:focus {
-  background-color: #2ed87b;
+  background-color: #2196F3;
 }
 .entry .entry-info {
   color: #999;
@@ -1260,7 +1260,7 @@
 }
 .social-table ul a {
   display: inline-block;
-  background: #2ed87b;
+  background: #2196F3;
   border-radius: 50%;
   font-size: 16px;
   color: #fff;
@@ -1308,12 +1308,12 @@
   height: 40px;
   line-height: 35px;
   text-align: center;
-  background-color: #2ed87b;
+  background-color: #2196F3;
   color: white;
   border-radius: 3px;
   border: 2px solid #fff;
-  -webkit-box-shadow: 0 0 0 2px #2ed87b;
-  box-shadow: 0 0 0 2px #2ed87b;
+  -webkit-box-shadow: 0 0 0 2px #2196F3;
+  box-shadow: 0 0 0 2px #2196F3;
 }
 .contact-info .social-icons .social-icons__item .fa {
   width: 40px;
@@ -1390,7 +1390,7 @@
   margin-bottom: 10px;
 }
 .blog-post-list li .fa {
-  color: #2ed87b;
+  color: #2196F3;
   margin-right: 8px;
 }
 
@@ -1496,7 +1496,7 @@
   height: 2px;
   width: 60px;
   display: block;
-  background-color: #2ed87b;
+  background-color: #2196F3;
   bottom: 0;
   left: 0;
 }
@@ -1559,8 +1559,8 @@
   border-color: #E91E63;
 }
 .main-footer .contact-box-four .contact-box-icon {
-  color: #2ed87b;
-  border-color: #2ed87b;
+  color: #2196F3;
+  border-color: #2196F3;
 }
 .main-footer .sub-footer {
   background-color: #10171d;
