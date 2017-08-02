@@ -1543,6 +1543,7 @@
 .verlink{
   display: flex;
   justify-content: center;
+  color: #2196f3;
 }
 
 @media screen and (max-width: 984px){
