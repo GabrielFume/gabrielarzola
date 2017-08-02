@@ -13,6 +13,18 @@
 	<meta charset="utf-8">
 	<!-- Always force latest IE rendering engine -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!---->
+	<meta name="google-site-verification" content="">
+	<!-- deben ser el 3% del contenido que hay en la pagina-->
+	<meta name="keywords" content="Programador, Desarrollador de software, Web developer, Developer">
+	<!---->
+	<meta name="description" content="Desarrollador web FullStack, Desarrollador IOS nativo">
+	<!---->
+	<meta name="author" content="gabrielarzola.com">
+	<!---->
+	<meta name="owner" content="Gabriel Arzola Fumero">
+	<!---->
+	<meta name="robots" content="index, follow">
 	<!-- Mobile specific meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags --> 
@@ -20,12 +32,13 @@
 	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
 	<!-- PAGE TITLE                                -->
 	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
-	<title>Gabriel Arzola | FullStack Developer & CV Resume Template</title>
+	<title>Desarrollador de software | FullStack Developer | Gabriel Arzola  </title>
 
 	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
 	<!-- SEO METAS                                 -->
 	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
-	<meta name="description" content="Gabriel Arzola, Desarrollador web fullstack y IOS Developer">
+	<!-- ––––––––– 120 palabras como maximo.–––––––– -->
+	<meta name="description" content="Gabriel Arzola, es un desarrollador web fullstack y IOS Developer con amplio conocimiento">
 	<meta name="keywords" content="insert, keywords, here">
 	<meta name="robots" content="index, follow">
     <meta name="author" content="CODASTROID">
@@ -57,6 +70,7 @@
 	<!-- Owl Carousel -->
 	<link href="assets/vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
 	<link href="assets/vendors/owl-carousel/owl.theme.min.css" rel="stylesheet">
+	<link href="assets/css/material-design-iconic-font.min.css" rel="stylesheet">
 
 	<!-- Magnific popup -->
 	<link href="assets/vendors/magnific-popup/css/magnific-popup.css" rel="stylesheet">
@@ -93,6 +107,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.contenedor:hover .imagen {transform:scale(1.3);transform:scale(1.3);}
+.contenedor {overflow:hidden;}
 
 </style>
 	
@@ -164,14 +181,14 @@
 			            <div class="hero-content mb-30">
 			            	<h2>Hola! Soy</h2>
 							<h1 class="mb-10 font-50">Gabriel Arzola</h1>
-							<h3>Soy un <span class="typed-text" data-text1="Freelancer" data-text2="Web Designer" data-text3="IOS Developer" data-loop="true" data-backdelay="3000"></span></h3>
+							<h3><span class="typed-text" data-text1="Web Developer" data-text2="IOS Developer" data-text3="Scrum Master" data-loop="true" data-backdelay="3000"></span></h3>
 						</div>
 						<div class="hero-buttons mb-40">
 							<button class="btn btn-lg btn-rounded hire-me-btn">Contactame</button>
 						</div>
-						<!--a href="https://www.youtube.com/watch?v=nrJtHemSPW4" class="hero-video iframe-lightbox">
+						<!--a href="" class="hero-video iframe-lightbox">
 							<div class="hero-video-wrapper">
-			                    <div class="video-icon" data-bg-img="assets/images/icons/play.png"></div>
+			                    <div class="video-icon" data-bg-img=""></div>
 			                    <div class="video-text t-left">
 			                    	<h5>Watch</h5>
 			                        <h4 class="t-uppercase">Our video</h4>
@@ -187,8 +204,8 @@
 					<div class="container pt-50 pb-20">
 						<div class="row row-tb-15">
 	                        <div class="col-md-4">
-	                        	<div class="profile-img mb-15">
-	                            	<img src="assets/img/yo.jpg" alt="">
+	                        	<div class="profile-img mb-15 contenedor">
+	                            	<img src="assets/img/yo.jpg" alt="" class="imagen">
 	                            </div>
 	                        </div>
 	                        <div class="col-md-8">
@@ -207,6 +224,7 @@
 		                                <li><span>Website : </span>www.gabrielarzola.com</li>
 		                            </ul>
 		                            <a href="assets/download/cv.pdf" target="_blank" class="btn btn-lg btn-rounded mr-10 mb-15 text-center">Descarga mi CV</a>
+		                            <a href="https://www.linkedin.com/in/gabrielarzola-programador/" target="_blank" class="btn btn-lg btn-rounded mr-10 mb-15 text-center">Mi linkedIn</a>
 		                            
 		                        </div>
 	                        </div>
@@ -227,47 +245,102 @@
 						<div class="row row-tb-15">
 		                    <ul class="skills-list col-md-6">
 		                    <h2 class="mb-20 font-24 t-uppercase text-center">Front-End</h2>
-		                        <li> 
-		                            <h6>HTML 5</h6>
-		                            <div class="skill-progress">
-		                                <div class="skill-percentage" data-percent="80"></div>
-		                            </div>
+		                        <li>
+		                        	<div class="row centro" >
+		                        		<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+		                        			<img src="assets/iconos/HTML5.svg" alt="HTML5" width="50" height="50" >	
+		                        		</div>
+		                        		<div class="col-xs-12 col-md-10">
+		                        			<h6>HTML 5</h6>
+				                            <div class="skill-progress">
+				                                <div class="skill-percentage" data-percent="80"></div>
+				                            </div>
+		                        		</div>
+		                        	</div>
 		                        </li>
-		                        <li> 
-		                            <h6>CSS 3</h6>
-		                            <div class="skill-progress">
-		                                <div class="skill-percentage" data-percent="60"></div>
-		                            </div>
+		                        <li>
+		                        <div class="row centro">
+		                        		<div class="col-md-2">
+		                        			<img src="assets/iconos/CSS3.svg" alt="HTML5" width="50" height="50">	
+		                        		</div>
+		                        		<div class="col-md-10">
+		                        			<h6>CSS 3</h6>
+				                            <div class="skill-progress">
+				                                <div class="skill-percentage" data-percent="60"></div>
+				                            </div>
+		                        		</div>
+		                        	</div> 
+		                            
 		                        </li>
-		                        <li> 
-		                            <h6>Javascript</h6>
-		                            <div class="skill-progress">
-		                                <div class="skill-percentage" data-percent="60"></div>
-		                            </div>
+		                        <li>
+		                        <div class="row centro">
+		                        		<div class="col-md-2">
+		                        			<img src="assets/iconos/javascript.png" alt="HTML5" width="50" height="50">	
+		                        		</div>
+		                        		<div class="col-md-10">
+		                        			<h6>Javascript</h6>
+				                            <div class="skill-progress">
+				                                <div class="skill-percentage" data-percent="60"></div>
+				                            </div>
+		                        		</div>
+		                        	</div> 
+		                            
 		                        </li>
-		                        <li> 
-		                            <h6>Bootstrap</h6>
+		                        <li>
+		                        <div class="row centro">
+		                        		<div class="col-md-2">
+		                        			<img src="assets/iconos/bootstap.png" alt="HTML5" width="50" height="50">	
+		                        		</div>
+		                        		<div class="col-md-10">
+		                        			<h6>Bootstrap</h6>
 		                            <div class="skill-progress">
 		                                <div class="skill-percentage" data-percent="75"></div>
 		                            </div>
+		                        		</div>
+		                        </div> 
+		                            
 		                        </li>
-		                        <li> 
-		                            <h6>Materialize</h6>
-		                            <div class="skill-progress">
-		                                <div class="skill-percentage" data-percent="60"></div>
-		                            </div>
+		                        <li>
+		                        <div class="row centro">
+		                        		<div class="col-md-2">
+		                        			<img src="assets/iconos/materialize.png" alt="HTML5" width="50" height="50">	
+		                        		</div>
+		                        		<div class="col-md-10">
+		                        			<h6>Materialize</h6>
+				                            <div class="skill-progress">
+				                                <div class="skill-percentage" data-percent="60"></div>
+				                            </div>
+		                        		</div>
+		                        	</div>  
+		                            
 		                        </li>
-		                        <li> 
-		                            <h6>AngularJs</h6>
-		                            <div class="skill-progress">
-		                                <div class="skill-percentage" data-percent="60"></div>
-		                            </div>
+		                        <li>
+		                        <div class="row centro">
+		                        		<div class="col-md-2">
+		                        			<img src="assets/iconos/angularjs.png" alt="HTML5" width="50" height="50">	
+		                        		</div>
+		                        		<div class="col-md-10">
+		                        			<h6>AngularJs</h6>
+				                            <div class="skill-progress">
+				                                <div class="skill-percentage" data-percent="60"></div>
+				                            </div>
+		                        		</div>
+		                        </div> 
+		                            
 		                        </li>
-		                        <li> 
-		                            <h6>UX</h6>
-		                            <div class="skill-progress">
-		                                <div class="skill-percentage" data-percent="60"></div>
-		                            </div>
+		                        <li>
+		                        <div class="row centro">
+		                        		<div class="col-md-2">
+		                        			<img src="assets/iconos/JS.png" alt="HTML5" width="50" height="50">	
+		                        		</div>
+		                        		<div class="col-md-10">
+		                        			<h6>UX</h6>
+				                            <div class="skill-progress">
+				                                <div class="skill-percentage" data-percent="60"></div>
+				                            </div>
+		                        		</div>
+		                        	</div>  
+		                            
 		                        </li>
 		                        <li> 
 		                            <h6>SEO</h6>
@@ -279,47 +352,104 @@
 		                    <ul class="skills-list col-md-6">
 
 		                    <h2 class="mb-20 font-24 t-uppercase text-center">Back-End</h2>
-		                        <li> 
-		                            <h6>PHP</h6>
-		                            <div class="skill-progress">
-		                                <div class="skill-percentage" data-percent="80"></div>
-		                            </div>
+		                        <li>
+		                        <div class="row centro">
+		                        		<div class="col-md-2">
+		                        			<img src="assets/iconos/php.png" alt="HTML5" width="50" height="50">	
+		                        		</div>
+		                        		<div class="col-md-10">
+		                        			<h6>PHP</h6>
+				                            <div class="skill-progress">
+				                                <div class="skill-percentage" data-percent="80"></div>
+				                            </div>
+		                        		</div>
+		                        </div> 
+		                            
 		                        </li>
-		                        <li> 
-		                            <h6>Symfony</h6>
-		                            <div class="skill-progress">
-		                                <div class="skill-percentage" data-percent="50"></div>
-		                            </div>
+		                        <li>
+		                        <div class="row centro">
+		                        		<div class="col-md-2">
+		                        			<img src="assets/iconos/symfony2.png" alt="HTML5" width="50" height="50">	
+		                        		</div>
+		                        		<div class="col-md-10">
+		                        			<h6>Symfony</h6>
+				                            <div class="skill-progress">
+				                                <div class="skill-percentage" data-percent="50"></div>
+				                            </div>
+		                        		</div>
+		                        </div>  
+		                            
 		                        </li>
-		                        <li> 
-		                            <h6>Codeigniter</h6>
-		                            <div class="skill-progress">
-		                                <div class="skill-percentage" data-percent="50"></div>
-		                            </div>
+		                        <li>
+		                        <div class="row centro">
+		                        		<div class="col-sm-2 col-md-2">
+		                        			<img src="assets/iconos/codeigniter.png" alt="HTML5" width="50" height="50">	
+		                        		</div>
+		                        		<div class="col-md-10">
+		                        			<h6>Codeigniter</h6>
+				                            <div class="skill-progress">
+				                                <div class="skill-percentage" data-percent="50"></div>
+				                            </div>
+		                        		</div>
+		                        </div> 
+		                            
 		                        </li>
-		                        <li> 
-		                            <h6>Mysql</h6>
-		                            <div class="skill-progress">
-		                                <div class="skill-percentage" data-percent="65"></div>
-		                            </div>
+		                        <li>
+		                        <div class="row centro">
+		                        		<div class="col-md-2">
+		                        			<img src="assets/iconos/mysql2.png" alt="HTML5" width="50" height="50">	
+		                        		</div>
+		                        		<div class="col-md-10">
+		                        			<h6>Mysql</h6>
+				                            <div class="skill-progress">
+				                                <div class="skill-percentage" data-percent="65"></div>
+				                            </div>
+		                        		</div>
+		                        </div> 
+		                            
 		                        </li>
-		                        <li> 
-		                            <h6>PostgreSQl</h6>
-		                            <div class="skill-progress">
-		                                <div class="skill-percentage" data-percent="70"></div>
-		                            </div>
+		                        <li>
+		                        <div class="row centro">
+		                        		<div class="col-md-2">
+		                        			<img src="assets/iconos/POSTGRES1.png" alt="HTML5" width="50" height="50">	
+		                        		</div>
+		                        		<div class="col-md-10">
+		                        			<h6>PostgreSQl</h6>
+				                            <div class="skill-progress">
+				                                <div class="skill-percentage" data-percent="70"></div>
+				                            </div>
+		                        		</div>
+		                        </div> 
+		                            
 		                        </li>
-		                        <li> 
-		                            <h6>Node</h6>
-		                            <div class="skill-progress">
-		                                <div class="skill-percentage" data-percent="40"></div>
-		                            </div>
+		                        <li>
+		                        <div class="row centro">
+		                        		<div class="col-md-2">
+		                        			<img src="assets/iconos/nodejs.png" alt="HTML5" width="50" height="50">	
+		                        		</div>
+		                        		<div class="col-md-10">
+		                        			<h6>Node</h6>
+				                            <div class="skill-progress">
+				                                <div class="skill-percentage" data-percent="40"></div>
+				                            </div>
+		                        		</div>
+		                        </div>
+		                            
 		                        </li>
-		                        <li> 
-		                            <h6>Java</h6>
-		                            <div class="skill-progress">
-		                                <div class="skill-percentage" data-percent="30"></div>
-		                            </div>
+		                        <li>
+		                        <div class="row centro">
+		                        		<div class="col-md-2">
+		                        			<img src="assets/iconos/java.svg" alt="HTML5" width="50" height="50">	
+		                        		</div>
+		                        		<div class="col-md-10">
+		                        			<h6>Java</h6>
+				                            <div class="skill-progress">
+				                                <div class="skill-percentage" data-percent="30"></div>
+				                            </div>
+		                        		</div>
+		                        </div>
+
+		                            
 		                        </li>
 		                        <li> 
 		                            <h6>C++</h6>
@@ -367,9 +497,9 @@
 	            <!-- Start Get Quote Area -->
 	            <section class="section get-quote-area ptb-80 parallax2">
 	                <div class="row">
-	                    <div class="col-md-12">
-	                        <div class="get-quotes-content text-center color-white row">
-	                        	<div class="col-lg-7 col-md-8 col-sm-10 col-xs-center">
+	                    <div class="col-md-12 verlink">
+	                        <div class="get-quotes-content text-center color-white row ">
+	                        	<div class="col-lg-7 col-md-8 col-sm-10 col-xs-center ">
 		                           	<h2 class="mb-20 t-uppercase">Trabajemos por tu idea</h2>
 		                            <h6 class="mb-40">Todos tenemos una idea de negocio la cual queremos llevar acabo, trabajemos juntos para encontrar la mejor manera de realizarla, Tu pones la idea, Yo el codigo!.</h6>
 		              
@@ -379,100 +509,6 @@
 	                </div>
 		        </section>
 	            <!-- End Get Quote Area -->
-
-	            <!-- Start Portfolio Area -->
-	            <!--section class="section portfolio-area pt-60 pb-40" id="portfolio_area">
-	                <div class="container">
-	                    <div class="row mb-30">
-	                        <div class="col-lg-7 col-md-8 col-sm-10 col-xs-12 col-xs-center t-center mb-40">
-	                            <h2 class="mb-20 font-24 t-uppercase">My portfolio</h2>
-	                            <p class="color-mid">Aliquam mattis efficitur massa vel commodo. Nam non euismod ante. Proin consequat sem quis massa rhoncus, vel convallis eros tincidunt.</p>
-	                        </div>
-	                        <div class="col-xs-12">
-	                            <div class="row row-tb-10 row-rl-10">
-	                            	<div class="col-md-6">
-		                            	<div class="row row-tb-10 row-rl-10">
-			                            	<div class="col-xs-6">
-				                            	<div class="portfolio-box">
-				                            		<div class="portfolio-overlay">
-		                                                <h3>Portfolio Title</h3>
-		                                                <h6>Graphics Design</h6>
-		                                                <a href="single_work.html" class="work-link"><i class="fa fa-link"></i></a>
-		                                                <a href="assets/images/portfolio/work_01.jpg" class="img-lightbox"><i class="fa fa-search"></i></a>
-		                                            </div>
-				                            		<img src="assets/images/portfolio/work_01.jpg" alt="">
-				                            	</div>
-			                            	</div>
-			                            	<div class="col-xs-6">
-				                            	<div class="portfolio-box">
-				                            		<div class="portfolio-overlay">
-		                                                <h3>Portfolio Title</h3>
-		                                                <h6>Graphics Design</h6>
-		                                                <a href="single_work.html" class="work-link"><i class="fa fa-link"></i></a>
-		                                                <a href="assets/images/portfolio/work_02.jpg" class="img-lightbox"><i class="fa fa-search"></i></a>
-		                                            </div>
-				                            		<img src="assets/images/portfolio/work_02.jpg" alt="">
-				                            	</div>
-			                            	</div>
-			                            	<div class="col-xs-6">
-				                            	<div class="portfolio-box">
-				                            		<div class="portfolio-overlay">
-		                                                <h3>Portfolio Title</h3>
-		                                                <h6>Graphics Design</h6>
-		                                                <a href="single_work.html" class="work-link"><i class="fa fa-link"></i></a>
-		                                                <a href="assets/images/portfolio/work_03.jpg" class="img-lightbox"><i class="fa fa-search"></i></a>
-		                                            </div>
-				                            		<img src="assets/images/portfolio/work_03.jpg" alt="">
-				                            	</div>
-			                            	</div>
-			                            </div>
-		                            </div>
-		                            <div class="col-md-6">
-			                            <div class="row row-tb-10 row-rl-10">
-			                            	<div class="col-xs-6">
-				                            	<div class="portfolio-box">
-				                            		<div class="portfolio-overlay">
-		                                                <h3>Portfolio Title</h3>
-		                                                <h6>Graphics Design</h6>
-		                                                <a href="single_work.html" class="work-link"><i class="fa fa-link"></i></a>
-		                                                <a href="assets/images/portfolio/work_03.jpg" class="img-lightbox"><i class="fa fa-search"></i></a>
-		                                            </div>
-				                            		<img src="assets/images/portfolio/work_04.jpg" alt="">
-				                            	</div>
-			                            	</div>
-			                            	<div class="col-xs-6">
-				                            	<div class="portfolio-box">
-				                            		<div class="portfolio-overlay">
-		                                                <h3>Portfolio Title</h3>
-		                                                <h6>Graphics Design</h6>
-		                                                <a href="single_work.html" class="work-link"><i class="fa fa-link"></i></a>
-		                                                <a href="assets/images/portfolio/work_03.jpg" class="img-lightbox"><i class="fa fa-search"></i></a>
-		                                            </div>
-				                            		<img src="assets/images/portfolio/work_06.jpg" alt="">
-				                            	</div>
-			                            	</div>
-			                            	<div class="col-xs-12">
-				                            	<div class="portfolio-box">
-				                            		<div class="portfolio-overlay">
-		                                                <h3>Portfolio Title</h3>
-		                                                <h6>Graphics Design</h6>
-		                                                <a href="single_work.html" class="work-link"><i class="fa fa-link"></i></a>
-		                                                <a href="assets/images/portfolio/work_04.jpg" class="img-lightbox"><i class="fa fa-search"></i></a>
-		                                            </div>
-				                            		<img src="assets/images/portfolio/work_05.jpg" alt="">
-				                            	</div>
-			                            	</div>
-			                            </div>
-		                            </div>
-	                            </div>
-	                        </div>
-	                    </div> 
-	                    <div class="t-center">
-	                    	<a href="portfolio.html" class="btn btn-lg btn-o btn-rounded"> <i class="fa fa-plus mr-10 valign-middle"></i> Load More</a>
-	                    </div>    
-	                </div>
-	            </section-->
-	            <!-- End Portfolio Area -->
 
 	            <!-- Start Experience Area -->
 	            <section class="section experience-area ptb-60" id="experience_area">
@@ -486,32 +522,22 @@
 	                    <div class="row row-tb-15">
 	                    	<div class="col-md-6">
 	                    		<div class="experience-single">
-	                    			<img class="experience-img" src="assets/img/Mincomercio_venezuela.png" alt="">
-	                    			<div class="experience-content">
-	                    				<span class="date">2015</span>
-	                    				<h6 class="t-uppercase mb-10">Ministerio de comercio</h6>
-	                    				<p class="color-mid">Ministerio encargado del comiercio en Venezuela</p>
-	                    			</div>
-	                    		</div>
-	                    	</div>
-	                    	<div class="col-md-6">
-	                    		<div class="experience-single">
 	                    			<img class="experience-img" src="assets/img/dategeek.jpg" alt="">
 	                    			<div class="experience-content">
-	                    				<span class="date">2016 - 2017</span>
+	                    				
 	                    				<h6 class="t-uppercase mb-10">DateGeekGroup</h6>
 	                    				<p class="color-mid">Empresa enfocada al desarrollo web y aplicaciones moviles</p>
+	                    				<span class="date">2016 - 2017</span>
 	                    			</div>
 	                    		</div>
 	                    	</div>
-	                    	<div class="col-md-3"></div>
 	                    	<div class="col-md-6">
 	                    		<div class="experience-single">
 	                    			<img class="experience-img" src="assets/img/senades_logo_solo.png" alt="">
 	                    			<div class="experience-content">
-	                    				<span class="date">2017</span>
 	                    				<h6 class="t-uppercase mb-10">Senades</h6>
 	                    				<p class="color-mid">Servicio Nacional para el desarme en Venezuela</p>
+	                    				<span class="date">2017</span>
 	                    			</div>
 	                    		</div>
 	                    	</div>
@@ -562,6 +588,7 @@
                     				<div class="timeline-content">
 	                    				<h6 class="t-uppercase mb-10">Curso de Introducción al Desarrollo Web: HTML y CSS</h6>
 	                    				<p class="color-mid">Curso impartido por GOOGLE - Activate, sobre los conocimientos basicos de HTML y CSS para el desarrollo de paginas web</p>
+	                    				<a href="" class="verlink">ver certificado</a>
 									</div>
                     			</div>
 								<span class="timeline-date">2016</span>
@@ -571,6 +598,7 @@
                     				<div class="timeline-content">
 	                    				<h6 class="t-uppercase mb-10">Curso de Symfony 3</h6>
 	                    				<p class="color-mid">Curso realizado en Udemy, sobre el uso y desarrollo de sistemas de informacion usando unos de los frameworks mas importantes en el mundo de PHP. Symfony</p>
+	                    				<a href="https://www.udemy.com/certificate/UC-7FR96OIQ/" target="_black" class="verlink">ver certificado</a>
 									</div>
                     			</div>
 								<span class="timeline-date">2017</span>
@@ -580,6 +608,7 @@
                     				<div class="timeline-content">
 	                    				<h6 class="t-uppercase mb-10">Curso de Git y Github</h6>
 	                    				<p class="color-mid">Curso realizado en Udemy, sobre el uso de un manejador de versiones en este caso Git utilizando como alojamiento de repositorios externos GitHub.</p>
+	                    				<a href="https://www.udemy.com/certificate/UC-V3KQQO79/" target="_black" class="verlink">ver certificado</a>
 									</div>
                     			</div>
 								<span class="timeline-date">2017</span>
@@ -589,6 +618,37 @@
                     				<div class="timeline-content">
 	                    				<h6 class="t-uppercase mb-10">Gestión de proyectos con metodologías Ágiles y enfoques Lean.</h6>
 	                    				<p class="color-mid">Curso realizado en Miriadax, sobre el enfoque de las metodologias agiles y las ventajas que nos brindan en el desarrollo de un producto y la administracion de su equipo.</p>
+	                    				<a href="https://miriadax.net/files/10132/badge/27382717-1a1e-4032-91ab-86ca6b3adffa.pdf" target="_black" class="verlink">ver certificado</a>
+									</div>
+                    			</div>
+								<span class="timeline-date">2017</span>
+                    		</div>
+                    		<div class="timeline-block row row-rl-0 mtb-20 mtb-md-10">
+                    			<div class="timeline-block-wrapper col-md-6 col-md-offset-6 col-sm-12">
+                    				<div class="timeline-content">
+	                    				<h6 class="t-uppercase mb-10">Curso basico de programacion</h6>
+	                    				<p class="color-mid">Curso realizado en Platzi, este curso se basa en lo teorico y practico de tecnologias de programacion en el Backend, Frontend, base datos y arduino.</p>
+	                    				<a href="https://platzi.com/@fumeromj/programacion-basica/diploma/" class="verlink">ver certificado</a>
+									</div>
+                    			</div>
+								<span class="timeline-date">2017</span>
+                    		</div>
+                    		<div class="timeline-block row row-rl-0 mtb-20 mtb-md-10">
+                    			<div class="timeline-block-wrapper col-md-6 col-sm-12">
+                    				<div class="timeline-content">
+	                    				<h6 class="t-uppercase mb-10">Desarrollo web</h6>
+	                    				<p class="color-mid">Curso realizado en Platzi, sobre el desarrollo con tecnologias para el desarrollo web con: HTML5, CSS3, y Javascript</p>
+	                    				<a href="https://platzi.com/@fumeromj/html5-css3/diploma/" target="_black" class="verlink">ver certificado</a>
+									</div>
+                    			</div>
+								<span class="timeline-date">2017</span>
+                    		</div>
+                    		<div class="timeline-block row row-rl-0 mtb-20 mtb-md-10">
+                    			<div class="timeline-block-wrapper col-md-6 col-md-offset-6 col-sm-12">
+                    				<div class="timeline-content">
+	                    				<h6 class="t-uppercase mb-10">Responsive Web Desing</h6>
+	                    				<p class="color-mid">Curso realizado en Platzi, este curso de basa en las bases necesarias para realizar una web responsive para dispositivos de distintas resoluciones de pantallas como tambien para pantallas de retina. </p>
+	                    				<a href="https://platzi.com/@fumeromj/responsive-design/diploma/" target="_black" class="verlink">ver certificado</a>
 									</div>
                     			</div>
 								<span class="timeline-date">2017</span>
@@ -597,329 +657,6 @@
 	                </div>
 	            </section>
 	            <!-- End Education Area -->
-
-	            <!-- Start Pricing Tables Area -->
-	            <!--section class="section pricing-table-area pt-60 pb-100" id="pricing_area">
-	            	<div class="container">
-						<div class="row mb-40">
-	                        <div class="col-lg-7 col-md-8 col-sm-10 col-xs-12 col-xs-center t-center">
-	                            <h2 class="mb-20 font-24 t-uppercase">Pricing Table</h2>
-	                            <p class="color-mid">Aliquam mattis efficitur massa vel commodo. Nam non euismod ante. Proin consequat sem quis massa rhoncus, vel convallis eros tincidunt.</p>
-	                        </div>
-						</div>
-						<div class="row row-tb-15">
-							<div class="col-md-4">
-								<div class="pricing-plan plan-one">
-									<div class="plan-header" data-bg-img="assets/images/pricing/plan_01.jpg">
-										<h4 class="price">$29</h4>
-									</div>
-									<div class="plan-main">
-										<div class="plan-title">Silver Graphic Packed</div>
-										<ul>
-											<li><i class="fa fa-check"></i>24/7 Tech Support</li>
-											<li><i class="fa fa-check"></i>Advanced Options</li>
-											<li><i class="fa fa-close"></i>Logo Design & Branding</li>
-											<li><i class="fa fa-close"></i>Web Design & Development</li>
-											<li><i class="fa fa-close"></i>SEO Optimization</li>
-										</ul>
-									</div>
-									<div class="plan-footer">
-										<a href="#" class="btn">Choose This Plan</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="pricing-plan plan-one">
-									<div class="plan-header" data-bg-img="assets/images/pricing/plan_02.jpg">
-										<h4 class="price">$39</h4>
-									</div>
-									<div class="plan-main">
-										<div class="plan-title">Silver Graphic Packed</div>
-										<ul>
-											<li><i class="fa fa-check"></i>24/7 Tech Support</li>
-											<li><i class="fa fa-check"></i>Advanced Options</li>
-											<li><i class="fa fa-check"></i>Logo Design & Branding</li>
-											<li><i class="fa fa-close"></i>Web Design & Development</li>
-											<li><i class="fa fa-close"></i>SEO Optimization</li>
-										</ul>
-									</div>
-									<div class="plan-footer">
-										<a href="#" class="btn">Choose This Plan</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="pricing-plan plan-one">
-									<div class="plan-header" data-bg-img="assets/images/pricing/plan_03.jpg">
-										<h4 class="price">$89</h4>
-									</div>
-									<div class="plan-main">
-										<div class="plan-title">Silver Graphic Packed</div>
-										<ul>
-											<li><i class="fa fa-check"></i>24/7 Tech Support</li>
-											<li><i class="fa fa-check"></i>Advanced Options</li>
-											<li><i class="fa fa-check"></i>Logo Design & Branding</li>
-											<li><i class="fa fa-check"></i>Web Design & Development</li>
-											<li><i class="fa fa-check"></i>SEO Optimization</li>
-										</ul>
-									</div>
-									<div class="plan-footer">
-										<a href="#" class="btn">Choose This Plan</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section-->
-	            <!-- End Pricing Tables Area -->
-
-	            <!-- Start Testimonial Area -->
-	            <!--section class="section testimonials-area pt-60 pb-40 bg-ct" data-bg-img="assets/images/bg_03.jpg" id="testimonials_area">
-	            	<div class="container">
-
-	            		<!-- carousel start -->
-				        <!--div class="testimonial-slider owl-carousel"
-						data-loop="true"
-			            data-autoplay="false"
-			            data-autoplay-timeout="10000"
-			            data-smart-speed="1000"
-			            data-nav-speed="false"
-			            data-dots="true"
-			            data-nav="false"
-			            data-lg-nav="false"
-			            data-md-nav="false"
-			            data-sm-nav="false"
-			            data-xs-nav="false"
-			            data-xxs-nav="false"
-			            data-lg-items="3"
-			            data-md-items="3"
-			            data-sm-items="2"
-			            data-xs-items="1"
-			            data-xxs-items="1">
-
-					        <div class="item">
-					            <div class="testimonial-thumb">
-					             	<img src="assets/images/testimonial/client_01.jpg" alt="">
-					            </div>
-					            <div class="testimonial-info">
-					            	<p class="testimonial-text">Morbi cursus ante massa, et accumsan nisl mollis et. Nam venenatis et felis quis porta.</p>
-					            	<h5 class="client-name t-uppercase">John Doe</h5>
-					            	<h6 class="client-designation">Web Designer</h6>
-					            </div>
-					        </div>
-
-					        <div class="item">
-					            <div class="testimonial-thumb">
-					            	<img src="assets/images/testimonial/client_02.jpg" alt="">
-					            </div>
-					            <div class="testimonial-info">
-					             	<p class="testimonial-text">Quisque ornare et nibh maximus tempor. Morbi a tristique urna, nec pellentesque nulla. Nulla facilisi.</p>
-					            	<h5 class="client-name t-uppercase">John Doe</h5>
-					            	<h6 class="client-designation">Web Designer</h6>
-					            </div>
-					        </div>
-
-					        <div class="item">
-					            <div class="testimonial-thumb">
-					              <img src="assets/images/testimonial/client_03.jpg" alt="">
-					            </div>
-					            <div class="testimonial-info">
-					            	<p class="testimonial-text">Nam non euismod ante. Proin consequat sem quis massa rhoncus, vel convallis eros tincidunt.</p>
-					            	<h5 class="client-name t-uppercase">John Doe</h5>
-					            	<h6 class="client-designation">Web Designer</h6>
-					            </div>
-					        </div>
-
-					        <div class="item">
-					            <div class="testimonial-thumb">
-					            	<img src="assets/images/testimonial/client_04.jpg" alt="">
-					            </div>
-					            <div class="testimonial-info">
-					            	<p class="testimonial-text">Ut quam orci, posuere quis lacus sed, vehicula rhoncus massa. Nunc volutpat nibh nulla.</p>
-					            	<h5 class="client-name t-uppercase">John Doe</h5>
-					            	<h6 class="client-designation">Web Designer</h6>
-					            </div>
-					        </div>
-
-					        <div class="item">
-					            <div class="testimonial-thumb">
-					            	<img src="assets/images/testimonial/client_05.jpg" alt="">
-					            </div>
-					            <div class="testimonial-info">
-					              	<p class="testimonial-text">Sed sit amet convallis enim. Phasellus maximus gravida augue, in sollicitudin odio lacinia ac.</p>
-					            	<h5 class="client-name t-uppercase">John Doe</h5>
-					            	<h6 class="client-designation">Web Designer</h6>
-					            </div>
-					        </div>
-
-							<div class="item">
-					            <div class="testimonial-thumb">
-					              	<img src="assets/images/testimonial/client_06.jpg" alt="">
-					            </div>
-					            <div class="testimonial-info">
-					              	<p class="testimonial-text">Nullam eget bibendum sem, venenatis lacinia justo. Duis aliquet lobortis neque, eget volutpat nulla iaculis a.</p>
-					            	<h5 class="client-name t-uppercase">John Doe</h5>
-					            	<h6 class="client-designation">Web Designer</h6>
-					            </div>
-					        </div>
-
-				        </div>
-				        < carousel end>
-
-	            	</div>
-	            </section-->
-	            <!-- End Testimonial Area -->
-
-	            <!-- Start Latest News Area -->
-	            <!--section class="section blog-area pt-100 pb-60" id="latest_news_area">
-	            	<div class="container">
-						<div class="row mb-40">
-	                        <div class="col-lg-7 col-md-8 col-sm-10 col-xs-12 col-xs-center t-center">
-	                            <h2 class="mb-20 font-24 t-uppercase">Our Latest News</h2>
-	                            <p class="color-mid">Aliquam mattis efficitur massa vel commodo. Nam non euismod ante. Proin consequat sem quis massa rhoncus, vel convallis eros tincidunt.</p>
-	                        </div>
-						</div>
-						<div class="row row-tb-15 mb-30">
-		                    <div class="col-md-4">
-		                        <div class="entry">
-		                        	<div class="entry-media">
-		                        		<figure class="embed-responsive embed-responsive-16by9" data-bg-img="assets/images/blog/01.jpg"></figure>
-		                        	</div>
-		                        	<div class="entry-content ptb-15">
-		                            	<h2 class="entry-title"><a href="blog_single.html">Integer vel lorem tincidunt pharetra eros nec posuere odio nullam eget</a></h2>
-		                            	<p class="color-mid">Pellentesque suscipit tincidunt suscipit. Nullam vestibulum, sapien eu interdum accumsan, magna mauris condimentum enim, in tincidunt eros enim...</p>
-		                           </div>
-		                           <div class="entry-footer">
-			                        	<span class="entry-info">
-			                           		<span class="mr-10"><i class="fa fa-clock-o mr-5"></i> 21 Jan, 2106</span>
-			                           		<span><i class="fa fa-comment-o mr-5"></i> 23</span>
-			                           	</span>
-			                           	<span class="read-more">
-			                           		<button class="btn btn-sm btn-square btn-o">Read More</button>
-			                           	</span>
-		                           </div>
-		                        </div>
-		                    </div>
-		                    <div class="col-md-4">
-		                        <div class="entry">
-		                        	<div class="entry-media">
-		                        		<div class="owl-carousel" data-loop="true" data-autoplay="true" data-autoplay-timeout="10000" data-smart-speed="1000" data-nav-speed="false" data-nav="true" data-xxs-items="1" data-xxs-nav="true" data-xs-items="1" data-xs-nav="true" data-sm-items="1" data-sm-nav="true" data-md-items="1" data-md-nav="true" data-lg-items="1" data-lg-nav="true">
-	                                        <figure class="entry-media post-thumbnail embed-responsive embed-responsive-16by9" data-bg-img="assets/images/blog/02.jpg"></figure>
-	                                        <figure class="entry-media post-thumbnail embed-responsive embed-responsive-16by9" data-bg-img="assets/images/blog/03.jpg"></figure>
-	                                        <figure class="entry-media post-thumbnail embed-responsive embed-responsive-16by9" data-bg-img="assets/images/blog/04.jpg"></figure>
-	                                    </div>
-		                        	</div>
-		                        	<div class="entry-content ptb-15">
-		                            	<h2 class="entry-title"><a href="blog_single.html">Integer vel lorem tincidunt pharetra eros nec posuere odio nullam eget</a></h2>
-		                            	<p class="color-mid">Pellentesque suscipit tincidunt suscipit. Nullam vestibulum, sapien eu interdum accumsan, magna mauris condimentum enim, in tincidunt eros enim...</p>
-		                           </div>
-		                           <div class="entry-footer">
-			                        	<span class="entry-info">
-			                           		<span class="mr-10"><i class="fa fa-clock-o mr-5"></i> 21 Jan, 2106</span>
-			                           		<span><i class="fa fa-comment-o mr-5"></i> 23</span>
-			                           	</span>
-			                           	<span class="read-more">
-			                           		<button class="btn btn-sm btn-square btn-o">Read More</button>
-			                           	</span>
-		                           </div>
-		                        </div>
-		                    </div>
-		                    <div class="col-md-4">
-		                        <div class="entry">
-		                        	<div class="entry-media">
-		                        		<figure class="entry-media embed-responsive embed-responsive-16by9">
-	                                        <iframe src="https://www.youtube.com/embed/nrJtHemSPW4" allowfullscreen></iframe>
-	                                    </figure>
-		                        	</div>
-		                        	<div class="entry-content ptb-15">
-		                            	<h2 class="entry-title"><a href="blog_single.html">Integer vel lorem tincidunt pharetra eros nec posuere odio nullam eget</a></h2>
-		                            	<p class="color-mid">Pellentesque suscipit tincidunt suscipit. Nullam vestibulum, sapien eu interdum accumsan, magna mauris condimentum enim, in tincidunt eros enim...</p>
-		                           </div>
-		                           <div class="entry-footer">
-			                        	<span class="entry-info">
-			                           		<span class="mr-10"><i class="fa fa-clock-o mr-5"></i> 21 Jan, 2106</span>
-			                           		<span><i class="fa fa-comment-o mr-5"></i> 23</span>
-			                           	</span>
-			                           	<span class="read-more">
-			                           		<button class="btn btn-sm btn-square btn-o">Read More</button>
-			                           	</span>
-		                           </div>
-		                        </div>
-		                    </div>
-						</div>
-						<div class="t-center">
-							<a href="blog.html" class="btn btn-rounded"><i class="fa fa-plus mr-10"></i>Visit Our Blog</a>
-						</div>
-					</div>
-				</section-->
-	            <!-- End Latest News Area -->
-
-	            <!-- Start My Team Area -->
-	            <!--section class="section my-team-area ptb-80" id="my_team_area">
-	            	<div class="container">
-	            		<div class="row mb-40">
-	                        <div class="col-lg-7 col-md-8 col-sm-10 col-xs-12 col-xs-center t-center">
-	                            <h2 class="mb-20 font-24 t-uppercase">Mi Equipo</h2>
-	                            <p class="color-mid">Este es el equipo multidisiplinario con el que comparto trabajo y excelentes momentos</p>
-	                        </div>
-						</div>
-						<div class="row row-tb-15">
-		                    <div class="col-md-3 col-sm-6">
-		                        <div class="single-author">
-		                            <div class="single-author-img">
-		                                <img src="assets/img/andry.jpg" alt="">
-		                            </div>
-		                            <div class="single-author-info">
-		                                <h4 class="mb-10 text-center"><a class="color-green t-uppercase" href="single_profile.html">Andry Sojo</a></h4>
-		                                <h6 class="mb-15">UX Designer</h6>
-		                                <p class="color-mid">Morbi iaculis, quam a facilisis condimentum, risus erat tincidunt dolor, ac interdum lorem urna non augue.</p>
-		                            </div>
-		                        </div>
-		                    </div>
-		                    <div class="col-md-3 col-sm-6">
-		                        <div class="single-author">
-		                            <div class="single-author-img">
-		                                <img src="assets/img/keiver.jpg" alt="">
-		                                
-		                            </div>
-		                            <div class="single-author-info">
-		                                <h4 class="mb-10 text-center"><a class="color-green t-uppercase" href="single_profile.html">Keiver Faneite</a></h4>
-		                                <h6 class="mb-15">Full Stack Developer</h6>
-		                                <p class="color-mid">Morbi iaculis, quam a facilisis condimentum, risus erat tincidunt dolor, ac interdum lorem urna non augue.</p>
-		                            </div>
-		                        </div>
-		                    </div>
-		                    <div class="col-md-3 col-sm-6">
-		                        <div class="single-author">
-		                            <div class="single-author-img">
-		                                <img src="assets/img/lorena.jpg" alt="">
-		                                
-		                            </div>
-		                            <div class="single-author-info">
-		                                <h4 class="mb-10 text-center"><a class="color-green t-uppercase" href="single_profile.html">Lorena Tovar</a></h4>
-		                                <h6 class="mb-15">UX Designer</h6>
-		                                <p class="color-mid">Morbi iaculis, quam a facilisis condimentum, risus erat tincidunt dolor, ac interdum lorem urna non augue.</p>
-		                            </div>
-		                        </div>
-		                    </div>
-		                    <div class="col-md-3 col-sm-6">
-		                        <div class="single-author">
-		                            <div class="single-author-img">
-		                                <img src="assets/img/gabriela.jpg" alt="">
-		                                
-		                            </div>
-		                            <div class="single-author-info">
-		                                <h4 class="mb-10 text-center"><a class="color-green t-uppercase" href="single_profile.html">Gabriela Piña</a></h4>
-		                                <h6 class="mb-15">Digital Marketing Consulting</h6>
-		                                <p class="color-mid">Morbi iaculis, quam a facilisis condimentum, risus erat tincidunt dolor, ac interdum lorem urna non augue.</p>
-		                            </div>
-		                        </div>
-		                    </div>
-		                </div>
-	            	</div>
-	            </section>
-	            <!-- End My Team Area -->
-
 
 	            <!-- Start Contact Us Area -->
 	            <section class="section contact-us-area ptb-60" id="contact_area">
@@ -962,12 +699,12 @@
 									<p class="color-mid mb-30">Si quieres contactarme para consultas, asesorias o proyectos que tengas en mente puedes hacerlo por estas vias.</p>
 									<ul class="contact-list mb-30">
 										<li>
-											<span class="icon lnr lnr-envelope"></span>
+											<!--i class="glyphicon glyphicon-earphone"></i-->
 											<h6>Correo electronico</h6>
 											<p class="color-mid">gabrielgac75@gmail.com@email.com</p>
 										</li>
 										<li>
-											<span class="icon lnr lnr-phone-handset"></span>
+											<!--i class="glyphicons glyphicons-message-plus"></i-->
 											<h6>Telefono</h6>
 											<p class="color-mid">(+58) 0412-724-3202</p>
 										</li>
@@ -977,7 +714,7 @@
 				                        	<a href="#"><i class="fa fa-facebook"></i></a>
 				                    	</li>
 				                    	<li class="social-icons__item">
-				                        	<a href="#"><i class="glyphicon glyphicon-fire"></i></a>
+				                        	<a href="#"><i class="glyphicon glyphicon-message"></i></a>
 				                    	</li>
 				                    	<li class="social-icons__item">
 				                        	<a href="#"><i class="fa fa-linkedin"></i></a>
@@ -1058,7 +795,7 @@
 	<!-- BACK TO TOP                               -->
 	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
 	<div id="backTop" class="back-top is-hidden-sm-down">
-		<i class="fa fa-angle-up" aria-hidden="true"></i>
+		<i class="glyphicon glyphicon-menu-up" aria-hidden="true"></i>
 	</div>
 
 	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
@@ -1102,6 +839,8 @@
     <script type="text/javascript" src="assets/js/main.js"></script>
 
     <script type="text/javascript" src="assets/js/anima.js"></script>
+
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
  
 <script>
