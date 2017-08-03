@@ -79,6 +79,9 @@
 	<link href="assets/css/base.css" rel="stylesheet">
 	<link href="assets/css/style.css" rel="stylesheet">
 
+	<!-- Animaciones -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
+
 
 	<style>
 
@@ -109,7 +112,7 @@
 }
 
 .contenedor:hover .imagen {transform:scale(1.3);transform:scale(1.3);}
-.contenedor {overflow:hidden;}
+.contenedor {overflow:hidden;border-radius: 5px;}
 
 </style>
 	
@@ -176,7 +179,7 @@
 			<div class="page-container">
 
 	            <!-- Start Hero Area -->
-	            <section class="section hero-area t-center parallax" id="home" data-bg-img="assets/img/mac.jpg">
+	            <section class="section hero-area t-center parallax" id="home" data-bg-img="assets/img/write.jpg">
 		            <div class="container">
 			            <div class="hero-content mb-30">
 			            	<h2>Hola! Soy</h2>
@@ -200,11 +203,11 @@
 	            <!-- End Hero Area -->
 
 				<!-- Start About Me Area -->
-				<section class="section about-me-area" id="about_me_area">
+				<section class="section about-me-area wow fadeInLeft" id="about_me_area" data-wow-delay="0.4s">
 					<div class="container pt-50 pb-20">
 						<div class="row row-tb-15">
 	                        <div class="col-md-4">
-	                        	<div class="profile-img mb-15 contenedor">
+	                        	<div class="profile-img mb-15 contenedor " >
 	                            	<img src="assets/img/yo.jpg" alt="" class="imagen">
 	                            </div>
 	                        </div>
@@ -236,14 +239,14 @@
 				<!-- Start My Skills Area -->
 				<section class="section my-skills-area clearfix pb-30" id="habilidades">
 					<div class="container">
-						<div class="row pb-60">
+						<div class="row pb-60 wow fadeInLeft" data-wow-delay="0.4s">
 	                        <div class="col-lg-7 col-md-8 col-sm-10 col-xs-12 col-xs-center t-center">
-	                            <h2 class="mb-20 font-24 t-uppercase">Mis habilidades</h2>
+	                            <h2 class="mb-20 font-24 t-uppercase" data-wow-delay="0.4s">Mis habilidades</h2>
 	                            <p class="color-mid">Estas son algunas referencias de las habilidades que he adquirido durante el tiempo que tengo en el area de programacion</p>
 	                        </div>
 	                    </div>
 						<div class="row row-tb-15">
-		                    <ul class="skills-list col-md-6">
+		                    <ul class="skills-list col-md-6 wow fadeInLeftBig" data-wow-delay="0.3s" data-wow-duration="1s">
 		                    <h2 class="mb-20 font-24 t-uppercase text-center">Front-End</h2>
 		                        <li>
 		                        	<div class="row centro" >
@@ -357,7 +360,7 @@
 		                            
 		                        </li>
 		                    </ul>
-		                    <ul class="skills-list col-md-6">
+		                    <ul class="skills-list col-md-6 wow fadeInRightBig" data-wow-delay="0.3s" data-wow-duration="1s">
 
 		                    <h2 class="mb-20 font-24 t-uppercase text-center">Back-End</h2>
 		                        <li>
@@ -509,10 +512,10 @@
             	</section>
             	<!-- End My Skills Area -->
 
-	            <!-- Start Get Quote Area -->
+	            <!-- Start Get Quote Area --> 
 	            <section class="section get-quote-area ptb-80 parallax2">
 	                <div class="row">
-	                    <div class="col-md-12 verlink">
+	                    <div class="col-md-12 verlink wow zoomIn" data-wow-delay="0.3s" data-wow-duration="1s">
 	                        <div class="get-quotes-content text-center color-white row ">
 	                        	<div class="col-lg-7 col-md-8 col-sm-10 col-xs-center ">
 		                           	<h2 class="mb-20 t-uppercase">Trabajemos por tu idea</h2>
@@ -527,9 +530,9 @@
 
 	            <!-- Start Experience Area -->
 	            <section class="section experience-area ptb-60" id="experience_area">
-	                <div class="container">
+	                <div class="container wow fadeInLeft" data-wow-delay="1s">
 	                    <div class="row mb-20">
-	                        <div class="col-lg-7 col-md-8 col-sm-10 col-xs-12 col-xs-center t-center mb-40">
+	                        <div class="col-lg-7 col-md-8 col-sm-10 col-xs-12 col-xs-center t-center mb-40 " >
 	                            <h2 class="mb-20 font-24 t-uppercase">Experiencia de trabajo</h2>
 	                            <p class="color-mid">Mi experiencia de trabajando como desarrollador en los distintos entes del estado y empresas privadas</p>
 	                        </div>
@@ -856,13 +859,12 @@
     <script type="text/javascript" src="assets/js/anima.js"></script>
 
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script src="assets/js/wow-1.3.0.min.js"></script>
 
  
-<script>
-	
-
-              
-</script>
+	<script>
+          new WOW().init();      
+	</script>
 
 </body>
 
