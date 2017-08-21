@@ -46,8 +46,8 @@
 	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
 	<!-- PAGE FAVICON                              -->
 	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
-	<link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png">
-	<link rel="icon" href="assets/images/favicon/favicon.ico">
+	<link rel="apple-touch-icon" href="assets/iconos/ga.png">
+	<link rel="icon" href="assets/iconos/ga.png">
 
 	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
 	<!-- GOOGLE FONTS                              -->
@@ -70,7 +70,6 @@
 	<!-- Owl Carousel -->
 	<link href="assets/vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
 	<link href="assets/vendors/owl-carousel/owl.theme.min.css" rel="stylesheet">
-	<link href="assets/css/material-design-iconic-font.min.css" rel="stylesheet">
 
 	<!-- Magnific popup -->
 	<link href="assets/vendors/magnific-popup/css/magnific-popup.css" rel="stylesheet">
@@ -111,8 +110,36 @@
     background-size: cover;
 }
 
+.parallax3 {
+    /* The image used */
+    background-image: url("assets/img/coffe.jpg");
+
+    /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .contenedor:hover .imagen {transform:scale(1.3);transform:scale(1.3);}
 .contenedor {overflow:hidden;border-radius: 5px;}
+
+input::-webkit-input-placeholder {
+  color: #e74c3c;
+}
+input:-moz-placeholder {
+  color: #e74c3c;
+}
+input:-ms-input-placeholder {
+  color: #e74c3c;
+}
+input[placeholder] {
+  color: #2980b9;
+}
+
+
 
 </style>
 	
@@ -184,7 +211,7 @@
 			            <div class="hero-content mb-30">
 			            	<h2>Hola! Soy</h2>
 							<h1 class="mb-10 font-50">Gabriel Arzola</h1>
-							<h3><span class="typed-text" data-text1="Web Developer" data-text2="IOS Developer" data-text3="Scrum Master" data-loop="true" data-backdelay="3000"></span></h3>
+							<h3><span class="typed-text" data-text1="Programador Web" data-text2="Diseñador de productos digitales" data-text3="Scrum Master" data-loop="true" data-backdelay="3000"></span></h3>
 						</div>
 						<div class="hero-buttons mb-40">
 							<button class="btn btn-lg btn-rounded hire-me-btn">Contactame</button>
@@ -203,9 +230,9 @@
 	            <!-- End Hero Area -->
 
 				<!-- Start About Me Area -->
-				<section class="section about-me-area wow fadeInLeft" id="about_me_area" data-wow-delay="0.4s">
-					<div class="container pt-50 pb-20">
-						<div class="row row-tb-15">
+				<section class="wow fadeInLeft" data-wow-delay="0.4s" style="background-color:#f5f5f5 ;">
+					<div class="container pt-50 ">
+						<div class="row">
 	                        <div class="col-md-4">
 	                        	<div class="profile-img mb-15 contenedor " >
 	                            	<img src="assets/img/yo.jpg" alt="" class="imagen">
@@ -221,13 +248,18 @@
 		                                <li><span>Nombre : </span>Gabriel Arzola</li>
 		                                <li><span>Edad : </span>24 años</li>
 		                                <li><span>Experiencia : </span>2 años</li>
-		                                <li><span>Email : </span>gabrielgac75@gmail.com</li>
+		                                <li><span>Email : </span>contact@gabrielarzola.com</li>
 		                                <li><span>Telefono : </span>+58 0412-724-3202</li>
 		                                <li><span>Skype : </span>gabriel_isaias</li>
 		                                <li><span>Website : </span>www.gabrielarzola.com</li>
 		                            </ul>
-		                            <a href="assets/download/cv.pdf" target="_blank" class="btn btn-lg btn-rounded mr-10 mb-15 text-center">Descarga mi CV</a>
-		                            <a href="https://www.linkedin.com/in/gabrielarzola-programador/" target="_blank" class="btn btn-lg btn-rounded mr-10 mb-15 text-center">Mi linkedIn</a>
+		                            <div class="row">
+		                            	<div class="col-md-3"><a href="assets/img/Curriculum_Gabriel_Arzola.pdf" target="_blank" class=""><img src="assets/iconos/curriculum.svg" alt="" width="50"> Ver Curriculum</a></div>
+		                            <div class="col-md-3"><a href="https://www.linkedin.com/in/gabrielarzola-programador/" target="_blank" class=""><img src="assets/iconos/linkedin.svg" alt="" width="50"> Ver linkedin</a></div>
+		                            </div>
+		                            
+		                            
+		                            
 		                            
 		                        </div>
 	                        </div>
@@ -239,7 +271,7 @@
 				<!-- Start My Skills Area -->
 				<section class="section my-skills-area clearfix pb-30" id="habilidades">
 					<div class="container">
-						<div class="row pb-60 wow fadeInLeft" data-wow-delay="0.4s">
+						<div class="row pb-60 wow fadeInLeft" data-wow-delay="0.4s" style="padding: 3%;">
 	                        <div class="col-lg-7 col-md-8 col-sm-10 col-xs-12 col-xs-center t-center">
 	                            <h2 class="mb-20 font-24 t-uppercase" data-wow-delay="0.4s">Mis habilidades</h2>
 	                            <p class="color-mid">Estas son algunas referencias de las habilidades que he adquirido durante el tiempo que tengo en el area de programacion</p>
@@ -545,7 +577,7 @@
 	                    				
 	                    				<h6 class="t-uppercase mb-10">DateGeekGroup</h6>
 	                    				<p class="color-mid">Empresa enfocada al desarrollo web y aplicaciones moviles</p>
-	                    				<span class="date">2016 - 2017</span>
+	                    				
 	                    			</div>
 	                    		</div>
 	                    	</div>
@@ -555,7 +587,7 @@
 	                    			<div class="experience-content">
 	                    				<h6 class="t-uppercase mb-10">Senades</h6>
 	                    				<p class="color-mid">Servicio Nacional para el desarme en Venezuela</p>
-	                    				<span class="date">2017</span>
+	                    				
 	                    			</div>
 	                    		</div>
 	                    	</div>
@@ -677,31 +709,31 @@
 	            <!-- End Education Area -->
 
 	            <!-- Start Contact Us Area -->
-	            <section class="section contact-us-area ptb-60" id="contact_area">
+	            <section class="section hero-area contact-us-area ptb-60 parallax3" id="contact_area">
 	            	<div class="container">
 	            		<div class="row mb-40">
 	                        <div class="col-lg-7 col-md-8 col-sm-10 col-xs-12 col-xs-center t-center">
-	                            <h2 class="mb-20 font-24 t-uppercase">Contactame</h2>
+	                            <h2 class="mb-20 font-24 t-uppercase color-white">Contactame</h2>
 	                        </div>
 						</div>
 	            		<div class="row row-tb-15">
 							<div class="col-md-6">
-								<div class="contact-form">
+								<div class="color-white">
 									<h3 class="mb-10 text-center">Cantactame via correo electronico</h3>
-									<p class="color-mid mb-30">La comunicacion contigo es fundamental</p>
+									<p class="color-white mb-30">La comunicacion contigo es fundamental</p>
 									<form action="assets/php/contact.php" method="post" id="contactForm">
 										<div class="row row-tb-10">
 											<div class="col-sm-6">
-												<input class="form-control" type="text" placeholder="Nombre" name="required['name']" id="contactName">
+												<input class="form-control blanco" type="text" placeholder="Nombre" name="required['name']" id="contactName">
 											</div>
 											<div class="col-sm-6">
-												<input class="form-control" type="text" placeholder="Correo electronico" name="required['email']" id="contactEmail">
+												<input class="form-control color-white" type="text" placeholder="Correo electronico" name="required['email']" id="contactEmail">
 											</div>
 											<div class="col-xs-12">
-												<input class="form-control" type="text" placeholder="Objetivo" name="required['subject']" id="contactSubject">
+												<input class="form-control color-white" type="text" placeholder="Objetivo" name="required['subject']" id="contactSubject">
 											</div>
 											<div class="col-xs-12">
-												<textarea class="form-control" rows="5" placeholder="Escribe tu mensaje" name="required['message']" id="contactMessage"></textarea>
+												<textarea class="form-control color-white" rows="5" placeholder="Escribe tu mensaje" name="required['message']" id="contactMessage"></textarea>
 											</div>
 											<div class="col-xs-12">
 												<button class="btn btn-block" type="submit">Enviar mensaje</button>
@@ -711,48 +743,32 @@
 									</form>
 								</div>
 							</div>
-	            			<div class="col-md-6">
-								<div class="contact-info">
+	            			<div class="col-md-5 col-md-offset-1">
+								<div class="" style="padding-bottom: 7%;">
 									<h3 class="mb-10 text-center">Informacion de contacto</h3>
-									<p class="color-mid mb-30">Si quieres contactarme para consultas, asesorias o proyectos que tengas en mente puedes hacerlo por estas vias.</p>
+									<p class="color-white mb-30">Si quieres contactarme para consultas, asesorias o proyectos que tengas en mente puedes hacerlo por estas vias.</p>
 									<ul class="contact-list mb-30">
 										<li>
 											<!--i class="glyphicon glyphicon-earphone"></i-->
 											<h6>Correo electronico</h6>
-											<p class="color-mid">gabrielgac75@gmail.com@email.com</p>
+											<p class="color-white">contact@gabrielarzola.com</p>
 										</li>
 										<li>
 											<!--i class="glyphicons glyphicons-message-plus"></i-->
 											<h6>Telefono</h6>
-											<p class="color-mid">(+58) 0412-724-3202</p>
+											<p class="color-white">(+58) 0412-724-3202</p>
+										</li>
+										<li>
+											<!--i class="glyphicons glyphicons-message-plus"></i-->
+											<h6>Skype</h6>
+											<p class="color-white">gabriel_isaias</p>
+										</li>
+										<li>
+											<!--i class="glyphicons glyphicons-message-plus"></i-->
+											<h6>Linkdin</h6>
+											<p class="color-white">www.linkedin.com/in/gabrielarzola-programador/</p>
 										</li>
 									</ul>
-									<ul class="social-icons social-icons--colored list-inline">
-				                    	<li class="social-icons__item">
-				                        	<a href="#"><i class="fa fa-facebook"></i></a>
-				                    	</li>
-				                    	<li class="social-icons__item">
-				                        	<a href="#"><i class="glyphicon glyphicon-message"></i></a>
-				                    	</li>
-				                    	<li class="social-icons__item">
-				                        	<a href="#"><i class="fa fa-linkedin"></i></a>
-				                    	</li>
-				                    	<li class="social-icons__item">
-				                        	<a href="#"><i class="fa fa-google-plus"></i></a>
-				                    	</li>
-				                    	<li class="social-icons__item">
-				                        	<a href="#"><i class="fa fa-pinterest"></i></a>
-				                    	</li>
-				                    	<li class="social-icons__item">
-				                        	<a href="#"><i class="fa fa-behance"></i></a>
-				                    	</li>
-				                    	<li class="social-icons__item">
-				                        	<a href="#"><i class="fa fa-dribbble"></i></a>
-				                    	</li>
-				                    	<li class="social-icons__item">
-				                        	<a href="#"><i class="fa fa-instagram"></i></a>
-				                    	</li>
-				                	</ul>
 								</div>
 							</div>
 						</div>
@@ -786,7 +802,7 @@
 		                    </div>
 		                </div>
 	                </div>
-		        </section-->
+		        </section>
 	            <!-- End Subscribe Area -->
 
 			</div>
@@ -804,17 +820,13 @@
         <!-- ––––––––––––––[ END FOOTER ]––––––––––––– -->
 
     </div>
-    <!-- ––––––––––––––––––––––––––––––––––––––––– -->
-	<!-- END WRAPPER                               -->
-	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
 
-
-    <!-- ––––––––––––––––––––––––––––––––––––––––– -->
-	<!-- BACK TO TOP                               -->
-	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
-	<div id="backTop" class="back-top is-hidden-sm-down">
+    <!-- 			  -->
+	<!-- BACK TO TOP  -->
+	<!-- 			  -->
+	<!-- <div id="backTop" class="back-top is-hidden-sm-down">
 		<i class="glyphicon glyphicon-menu-up" aria-hidden="true"></i>
-	</div>
+	</div> -->
 
 	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
 	<!-- SCRIPTS                                   -->
@@ -853,12 +865,13 @@
     <!-- Typed.js -->
     <script type="text/javascript" src="assets/vendors/typed.js"></script>
 
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+
     <!-- ======== Custom Template JavaScript ======== -->
     <script type="text/javascript" src="assets/js/main.js"></script>
 
     <script type="text/javascript" src="assets/js/anima.js"></script>
 
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
     <script src="assets/js/wow-1.3.0.min.js"></script>
 
  
