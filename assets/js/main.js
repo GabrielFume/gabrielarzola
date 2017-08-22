@@ -293,9 +293,9 @@
 
     var contact_response = function(responseNode, type) {
         /* Response Messages */
-        var success_response = 'Your email was sent!',
-            error_response = 'Something went wrong!',
-            error_net_response = 'Could not connect to server!';
+        var success_response = 'Tu email a sido enviado con exito!',
+            error_response = 'Ha ocurrido un error!',
+            error_net_response = 'No se pudo conectar al servidor!';
 
         if (type === "success") {
             responseNode.removeClass('text-error').addClass('text-valid');

@@ -194,12 +194,12 @@
 		                            <div class="profile-title mb-20">
 		                                <h1 class="h3 pb-15">Sobre mi</h1>
 		                            </div>
-	                                <p class="color-mid">Me considero una persona emprendedora, estudiosa y apasionada por lo que hago. En lo personal me gusta hacer deportes para recrearme. En lo profesional me gusta estudiar sobre tecnologia, historia y politica. Soy "tecnologo de nacimiento", tambien me considero un soñador y he encontrado en el emprendimiento, un mundo fascinante donde encuentras ideas geniales y personas brillantes, si lo unimos con el desarrollo de software se podria hablar del duo inseparable. </p>
+	                                <p class="color-mid">Me considero una persona emprendedora, estudiosa y apasionada por lo que hago. En lo personal me gusta hacer deportes para recrearme. En lo profesional me gusta estudiar sobre tecnología, historia y política. Soy "tecnologo de nacimiento", también me considero un soñador y he encontrado en el emprendimiento, un mundo fascinante donde encuentras ideas geniales y personas brillantes, si lo unimos con el desarrollo de software se podría hablar del dúo inseparable. </p>
 		                            <ul class="col-md-12 profile-info-list color-mid mb-30">
 		                                <li><span>Nombre : </span>Gabriel Arzola</li>
 		                                <li><span>Edad : </span>24 años</li>
 		                                <li><span>Experiencia : </span>2 años</li>
-		                                <li><span>Email : </span>contacto@gabrielarzola.com</li>
+		                                <li><span>Email : </span>gabrielgac75@gmail.com</li>
 		                                <li><span>Telefono : </span>+58 0412-724-3202</li>
 		                                <li><span>Skype : </span>gabriel_isaias</li>
 		                                <li><span>Website : </span>www.gabrielarzola.com</li>
@@ -502,7 +502,7 @@
 	                        <div class="get-quotes-content text-center color-white row ">
 	                        	<div class="col-lg-7 col-md-8 col-sm-10 col-xs-center ">
 		                           	<h2 class="mb-20 t-uppercase">Trabajemos por tu idea</h2>
-		                            <h6 class="mb-40">Todos tenemos una idea de negocio la cual queremos llevar acabo, trabajemos juntos para encontrar la mejor manera de realizarla, Tu pones la idea, Yo el codigo!.</h6>
+		                            <h6 class="mb-40">Todos tenemos una idea de negocio la cual queremos llevar a cabo, trabajemos juntos para encontrar la mejor manera de realizarla, Tu pones la idea, Yo el codigo!.</h6>
 		              
 		                        </div>
 	                        </div>
@@ -527,7 +527,7 @@
 	                    			<div class="experience-content">
 	                    				
 	                    				<h6 class="t-uppercase mb-10">DateGeekGroup</h6>
-	                    				<p class="color-mid">Empresa enfocada al desarrollo web y aplicaciones moviles</p>
+	                    				<p class="color-mid">Empresa enfocada al desarrollo web y aplicaciones móviles</p>
 	                    				
 	                    			</div>
 	                    		</div>
@@ -553,15 +553,15 @@
 	                    <div class="row mb-20">
 	                        <div class="col-lg-7 col-md-8 col-sm-10 col-xs-12 col-xs-center t-center mb-40">
 	                            <h2 class="mb-20 font-24 t-uppercase">Educacion</h2>
-	                            <p class="color-mid">Informacion sobre mi carrera y los cursos realizados a lo largo de mi trayectoria como programador.</p>
+	                            <p class="color-mid">Información sobre mi carrera y los cursos realizados a lo largo de mi trayectoria como programador.</p>
 	                        </div>
 	                    </div>
 	                    <div class="timeline education-timeline">
                     		<div class="timeline-block row row-rl-0 mtb-20 mtb-md-10">
                     			<div class="timeline-block-wrapper col-md-6 col-sm-12">
                     				<div class="timeline-content">
-	                    				<h6 class="t-uppercase mb-10">Instituto Universitario Jesus Obrero</h6>
-	                    				<p class="color-mid">TSU en informatica, formacion tecnica en las necesidades basicas que requieren los sistemas de informacion con orientacion a la web</p>
+	                    				<h6 class="t-uppercase mb-10">Instituto Universitario Jesús Obrero</h6>
+	                    				<p class="color-mid">TSU en informatica, formacion tecnica en las necesidades básicas que requieren los sistemas de información con orientación a la web.</p>
 									</div>
                     			</div>
 								<span class="timeline-date">2015</span>
@@ -588,8 +588,7 @@
                     			<div class="timeline-block-wrapper col-md-6 col-md-offset-6 col-sm-12">
                     				<div class="timeline-content">
 	                    				<h6 class="t-uppercase mb-10">Curso de Introducción al Desarrollo Web: HTML y CSS</h6>
-	                    				<p class="color-mid">Curso impartido por GOOGLE - Activate, sobre los conocimientos basicos de HTML y CSS para el desarrollo de paginas web</p>
-	                    				<a href="" class="verlink" style="">Ver certificado</a>
+	                    				<p class="color-mid">Curso impartido por GOOGLE - Actívate, sobre los conocimientos básicos de HTML y CSS para el desarrollo de paginas web</p>
 									</div>
                     			</div>
 								<span class="timeline-date">2016</span>
@@ -598,7 +597,7 @@
                     			<div class="timeline-block-wrapper col-md-6 col-sm-12">
                     				<div class="timeline-content">
 	                    				<h6 class="t-uppercase mb-10">Curso de Symfony 3</h6>
-	                    				<p class="color-mid">Curso realizado en Udemy, sobre el uso y desarrollo de sistemas de informacion usando unos de los frameworks mas importantes en el mundo de PHP. Symfony</p>
+	                    				<p class="color-mid">Curso realizado en Udemy, sobre el uso y desarrollo de sistemas de información usando unos de los frameworks más importantes en el mundo de PHP. Symfony</p>
 	                    				<a href="https://www.udemy.com/certificate/UC-7FR96OIQ/" target="_black" class="verlink">Ver certificado</a>
 									</div>
                     			</div>
@@ -618,7 +617,7 @@
                     			<div class="timeline-block-wrapper col-md-6 col-sm-12">
                     				<div class="timeline-content">
 	                    				<h6 class="t-uppercase mb-10">Gestión de proyectos con metodologías Ágiles y enfoques Lean.</h6>
-	                    				<p class="color-mid">Curso realizado en Miriadax, sobre el enfoque de las metodologias agiles y las ventajas que nos brindan en el desarrollo de un producto y la administracion de su equipo.</p>
+	                    				<p class="color-mid">Curso realizado en Miriadax, sobre el enfoque de las metodologías ágiles y las ventajas que nos brindan en el desarrollo de un producto y la administración de su equipo.</p>
 	                    				<a href="https://miriadax.net/files/10132/badge/27382717-1a1e-4032-91ab-86ca6b3adffa.pdf" target="_black" class="verlink">Ver certificado</a>
 									</div>
                     			</div>
@@ -628,7 +627,7 @@
                     			<div class="timeline-block-wrapper col-md-6 col-md-offset-6 col-sm-12">
                     				<div class="timeline-content">
 	                    				<h6 class="t-uppercase mb-10">Curso basico de programacion</h6>
-	                    				<p class="color-mid">Curso realizado en Platzi, este curso se basa en lo teorico y practico de tecnologias de programacion en el Backend, Frontend, base datos y arduino.</p>
+	                    				<p class="color-mid">Curso realizado en Platzi, este curso se basa en lo teorico y practico de tecnologías de programacion en el Backend, Frontend, base datos y arduino.</p>
 	                    				<a href="https://platzi.com/@fumeromj/programacion-basica/diploma/" target="_black" class="verlink">Ver certificado</a>
 									</div>
                     			</div>
@@ -638,7 +637,7 @@
                     			<div class="timeline-block-wrapper col-md-6 col-sm-12">
                     				<div class="timeline-content">
 	                    				<h6 class="t-uppercase mb-10">Desarrollo web</h6>
-	                    				<p class="color-mid">Curso realizado en Platzi, sobre el desarrollo con tecnologias para el desarrollo web con: HTML5, CSS3, y Javascript</p>
+	                    				<p class="color-mid">Curso realizado en Platzi, sobre el desarrollo con tecnologías para el desarrollo web con: HTML5, CSS3, y Javascript</p>
 	                    				<a href="https://platzi.com/@fumeromj/html5-css3/diploma/" target="_black" class="verlink">Ver certificado</a>
 									</div>
                     			</div>
@@ -648,7 +647,7 @@
                     			<div class="timeline-block-wrapper col-md-6 col-md-offset-6 col-sm-12">
                     				<div class="timeline-content">
 	                    				<h6 class="t-uppercase mb-10">Responsive Web Desing</h6>
-	                    				<p class="color-mid">Curso realizado en Platzi, este curso de basa en las bases necesarias para realizar una web responsive para dispositivos de distintas resoluciones de pantallas como tambien para pantallas de retina. </p>
+	                    				<p class="color-mid">Curso realizado en Platzi, este curso se basa en las bases necesarias para realizar una web responsive para dispositivos de distintas resoluciones de pantallas como también para pantallas de retina. </p>
 	                    				<a href="https://platzi.com/@fumeromj/responsive-design/diploma/" target="_black" class="verlink">Ver certificado</a>
 									</div>
                     			</div>
@@ -670,39 +669,39 @@
 	            		<div class="row row-tb-15">
 							<div class="col-md-6">
 								<div class="color-white">
-									<h3 class="mb-10 text-center">Contactame via correo electronico</h3>
-									<p class="color-white mb-30">La comunicacion contigo es fundamental</p>
-									<form action="assets/php/contact.php" method="post" id="contactForm">
+									<h3 class="mb-10 text-center">Contactame via correo electrónico</h3>
+									<p class="color-white mb-30">La comunicación contigo es fundamental</p>
+									<form id="formulario" method="post">
 										<div class="row row-tb-10">
 											<div class="col-sm-6">
-												<input class="form-control color-white" type="text" placeholder="Nombre" name="required['name']" id="contactName">
+												<input class="form-control color-white" type="text" placeholder="Nombre" name="nombre" id="contactName">
 											</div>
 											<div class="col-sm-6">
-												<input class="form-control color-white" type="text" placeholder="Correo electronico" name="required['email']" id="contactEmail">
+												<input class="form-control color-white" type="text" placeholder="Correo electronico" name="email" id="contactEmail">
 											</div>
 											<div class="col-xs-12">
-												<input class="form-control color-white" type="text" placeholder="Objetivo" name="required['subject']" id="contactSubject">
+												<input class="form-control color-white" type="text" placeholder="Objetivo" name="objetivo" id="contactSubject">
 											</div>
 											<div class="col-xs-12">
-												<textarea class="form-control color-white" rows="5" placeholder="Escribe tu mensaje" name="required['message']" id="contactMessage"></textarea>
+												<textarea class="form-control color-white" rows="5" placeholder="Escribe tu mensaje" name="mensaje" id="contactMessage"></textarea>
 											</div>
 											<div class="col-xs-12">
-												<button class="btn btn-block" type="submit">Enviar mensaje</button>
+												<button class="btn btn-block" id="botonenviar" type="submit">Enviar mensaje</button>
 											</div>
+											<div id="resultado" class="t-center"></div>
 										</div>
-										<div class="contact-response" id="contactResponse"></div>
 									</form>
 								</div>
 							</div>
 	            			<div class="col-md-5 col-md-offset-1">
 								<div class="" style="padding-bottom: 7%;">
-									<h3 class="mb-10 text-center">Informacion de contacto</h3>
-									<p class="color-white mb-30">Si quieres contactarme para consultas, asesorias o proyectos que tengas en mente puedes hacerlo por estas vias.</p>
+									<h3 class="mb-10 text-center">Información de contacto</h3>
+									<p class="color-white mb-30">Si quieres contactarme para consultas, asesorías o proyectos que tengas en mente puedes hacerlo por estas vías.</p>
 									<ul class="contact-list mb-30">
 										<li>
 											<!--i class="glyphicon glyphicon-earphone"></i-->
-											<h6>Correo electronico</h6>
-											<p class="color-white">contacto@gabrielarzola.com</p>
+											<h6>Correo electrónico</h6>
+											<p class="color-white">gabrielgac75@gmail.com</p>
 										</li>
 										<li>
 											<!--i class="glyphicons glyphicons-message-plus"></i-->
@@ -734,7 +733,7 @@
 		<footer id="mainFooter" class="main-footer pt-10">
 		    <div class="sub-footer">
 		        <div class="container t-center">
-		           Si fallaste y no aprendiste fue una perdida de tiempo, no hay mejor aprendizaje de los errores cometidos © 2017. Todos los derechos reservados
+		            Si fallaste y no aprendiste fue una pérdida de tiempo, no hay mejor aprendizaje de los errores cometidos © 2017. Todos los derechos reservados.
 		        </div>
 		    </div>
         </footer>
@@ -785,6 +784,9 @@
     <script type="text/javascript" src="assets/js/anima.js"></script>
 
     <script src="assets/js/wow-1.3.0.min.js"></script>
+
+    <script src="assets/js/conecta.js" type="text/javascript">																								</script>
+
 
   
     	
