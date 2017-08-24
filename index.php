@@ -1,15 +1,9 @@
 
 <!DOCTYPE html>
-<!--[if lt IE 9 ]><html lang="en" dir="ltr" class="no-js ie-old"> <![endif]-->
-<!--[if IE 9 ]><html lang="en" dir="ltr" class="no-js ie9"> <![endif]-->
-<!--[if IE 10 ]><html lang="en" dir="ltr" class="no-js ie10"> <![endif]-->
-<!--[if (gt IE 10)|!(IE)]><!--> <html lang="en" dir="ltr" class="no-js"> <!--<![endif]-->
+<html lang="es-ve" dir="ltr" class="no-js"> <!--<![endif]-->
 
 <head>
-
-	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
 	<!-- META TAGS                                 -->
-	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
 	<meta charset="utf-8">
 	<!-- Always force latest IE rendering engine -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,24 +22,16 @@
 	<!-- Mobile specific -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     
+	<title>Desarrollador de software | FullStack Developer | Gabriel Arzola</title>
 
-	<title>Desarrollador de software | FullStack Developer | Gabriel Arzola  </title>
-
-
-	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
 	<!-- PAGE FAVICON                              -->
-	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
 	<link rel="apple-touch-icon" href="assets/iconos/ga.png">
 	<link rel="icon" href="assets/iconos/ga.png">
 
-	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
 	<!-- GOOGLE FONTS                              -->
-	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
 
-	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
 	<!-- Include CSS Filess                        -->
-	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
 
 	<!-- Bootstrap -->
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -113,9 +99,7 @@
 </head>
 <body id="body" class="wide-layout preloader-active">
 
-	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
 	<!-- PRELOADER                                 -->
-	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
 	<div id="preloader" class="preloader">
 		<div class="loader-cube">
 			<div class="loader-cube__item1 loader-cube__item"></div>
@@ -741,9 +725,7 @@
 
     </div>
 
-	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
 	<!-- SCRIPTS                                   -->
-	<!-- ––––––––––––––––––––––––––––––––––––––––– -->
 
 	<!-- (!) Placed at the end of the document so the pages load faster -->
 
