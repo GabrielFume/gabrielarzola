@@ -22,7 +22,7 @@
 	<!-- Mobile specific -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     
-	<title>Desarrollador de software | FullStack Developer | Gabriel Arzola</title>
+	<title>Programador | FullStack Developer | Gabriel Arzola</title>
 
 	<!-- PAGE FAVICON                              -->
 	<link rel="apple-touch-icon" href="assets/iconos/ga.png">
