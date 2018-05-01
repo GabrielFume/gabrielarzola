@@ -95,7 +95,25 @@
     background-size: cover;
 }
 
-.contenedor {overflow:hidden;border-radius: 5px;}</style>
+.contenedor {overflow:hidden;border-radius: 5px;}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.card-container {
+    padding: 12px 16px;
+}
+
+</style>
 </head>
 <body id="body" class="wide-layout preloader-active">
 
@@ -181,12 +199,12 @@
 	                                <p class="color-mid">Me considero una persona emprendedora, estudiosa y apasionada por lo que hago. En lo personal me gusta hacer deportes para recrearme. En lo profesional me gusta estudiar sobre tecnología, historia y política. Soy "tecnologo de nacimiento", también me considero un soñador y he encontrado en el emprendimiento, un mundo fascinante donde encuentras ideas geniales y personas brillantes, si lo unimos con el desarrollo de software se podría hablar del dúo inseparable. </p>
 		                            <ul class="col-md-12 profile-info-list color-mid mb-30">
 		                                <li><span>Nombre : </span>Gabriel Arzola</li>
-		                                <li><span>Edad : </span>24 años</li>
-		                                <li><span>Experiencia : </span>2 años</li>
+		                                <li><span>Edad : </span>25 años</li>
+		                                <li><span>Experiencia : </span>3 años</li>
 		                                <li><span>Email : </span>gabrielgac75@gmail.com</li>
 		                                <li><span>Telefono : </span>+58 0412-724-3202</li>
 		                                <li><span>Skype : </span>gabriel_isaias</li>
-		                                <li><span>Website : </span>www.gabrielarzola.com</li>
+		                                <!-- <li><span>Website : </span>www.gabrielarzola.com</li> -->
 		                            </ul>
 		                            <div class="row">
 		                            	<!--div class="col-md-3"><a href="assets/img/Curriculum_Gabriel_Arzola.pdf" target="_blank" class=""><img src="assets/iconos/curriculum.svg" alt="" width="50"> Ver Curriculum</a></div-->
@@ -221,14 +239,14 @@
 		                        			<img src="assets/iconos/HTML5.svg" alt="HTML5" width="50" height="50" >	
 		                        		</div>
 		                        		<div class="col-xs-12 col-md-10">
-		                        			<h6>HTML 5</h6>
+		                        			<h6>HTML 5 / CSS3 / JAVASCRIPT</h6>
 				                            <div class="skill-progress">
 				                                <div class="skill-percentage" data-percent="80"></div>
 				                            </div>
 		                        		</div>
 		                        	</div>
 		                        </li>
-		                        <li>
+		                        <!-- <li>
 		                        <div class="row centro">
 		                        		<div class="col-md-2">
 		                        			<img src="assets/iconos/CSS3.svg" alt="HTML5" width="50" height="50">	
@@ -241,8 +259,8 @@
 		                        		</div>
 		                        	</div> 
 		                            
-		                        </li>
-		                        <li>
+		                        </li> -->
+		                       <!--  <li>
 		                        <div class="row centro">
 		                        		<div class="col-md-2">
 		                        			<img src="assets/iconos/javascript.png" alt="HTML5" width="50" height="50">	
@@ -255,14 +273,14 @@
 		                        		</div>
 		                        	</div> 
 		                            
-		                        </li>
+		                        </li> -->
 		                        <li>
 		                        <div class="row centro">
 		                        		<div class="col-md-2">
 		                        			<img src="assets/iconos/bootstap.png" alt="HTML5" width="50" height="50">	
 		                        		</div>
 		                        		<div class="col-md-10">
-		                        			<h6>Bootstrap</h6>
+		                        			<h6>Bootstrap / Materialize</h6>
 		                            <div class="skill-progress">
 		                                <div class="skill-percentage" data-percent="75"></div>
 		                            </div>
@@ -270,7 +288,7 @@
 		                        </div> 
 		                            
 		                        </li>
-		                        <li>
+		                        <!-- <li>
 		                        <div class="row centro">
 		                        		<div class="col-md-2">
 		                        			<img src="assets/iconos/materialize.png" alt="HTML5" width="50" height="50">	
@@ -283,14 +301,14 @@
 		                        		</div>
 		                        	</div>  
 		                            
-		                        </li>
+		                        </li> -->
 		                        <li>
 		                        <div class="row centro">
 		                        		<div class="col-md-2">
 		                        			<img src="assets/iconos/angularjs.png" alt="HTML5" width="50" height="50">	
 		                        		</div>
 		                        		<div class="col-md-10">
-		                        			<h6>AngularJs</h6>
+		                        			<h6>AngularJs / Angular 4</h6>
 				                            <div class="skill-progress">
 				                                <div class="skill-percentage" data-percent="60"></div>
 				                            </div>
@@ -298,13 +316,14 @@
 		                        </div> 
 		                            
 		                        </li>
+
 		                        <li>
 		                        <div class="row centro">
 		                        		<div class="col-md-2">
 		                        			<img src="assets/iconos/UX.png" alt="HTML5" width="50" height="50">	
 		                        		</div>
 		                        		<div class="col-md-10">
-		                        			<h6>UX</h6>
+		                        			<h6>UX / UI</h6>
 				                            <div class="skill-progress">
 				                                <div class="skill-percentage" data-percent="60"></div>
 				                            </div>
@@ -318,7 +337,7 @@
 		                        			<img src="assets/iconos/SEO.png" alt="HTML5" width="50" height="50">	
 		                        		</div>
 		                        		<div class="col-md-10">
-		                        			<h6>SEO</h6>
+		                        			<h6>SEO </h6>
 				                            <div class="skill-progress">
 				                                <div class="skill-percentage" data-percent="70"></div>
 				                            </div>
@@ -326,6 +345,7 @@
 		                        	</div> 
 		                            
 		                        </li>
+		                        
 		                    </ul>
 		                    <ul class="skills-list col-md-6 wow fadeInRightBig" data-wow-delay="0.3s" data-wow-duration="1s">
 
@@ -358,7 +378,7 @@
 		                        </div>  
 		                            
 		                        </li>
-		                        <li>
+		                        <!-- <li>
 		                        <div class="row centro">
 		                        		<div class="col-sm-2 col-md-2">
 		                        			<img src="assets/iconos/codeigniter.png" alt="HTML5" width="50" height="50">	
@@ -371,14 +391,14 @@
 		                        		</div>
 		                        </div> 
 		                            
-		                        </li>
+		                        </li> -->
 		                        <li>
 		                        <div class="row centro">
 		                        		<div class="col-md-2">
 		                        			<img src="assets/iconos/mysql2.png" alt="HTML5" width="50" height="50">	
 		                        		</div>
 		                        		<div class="col-md-10">
-		                        			<h6>Mysql</h6>
+		                        			<h6>Mysql / PostgreSQl</h6>
 				                            <div class="skill-progress">
 				                                <div class="skill-percentage" data-percent="65"></div>
 				                            </div>
@@ -387,7 +407,7 @@
 		                            
 		                        </li>
 		                        <li>
-		                        <div class="row centro">
+		                        <!-- <div class="row centro">
 		                        		<div class="col-md-2">
 		                        			<img src="assets/iconos/POSTGRES1.png" alt="HTML5" width="50" height="50">	
 		                        		</div>
@@ -397,7 +417,7 @@
 				                                <div class="skill-percentage" data-percent="70"></div>
 				                            </div>
 		                        		</div>
-		                        </div> 
+		                        </div> --> 
 		                            
 		                        </li>
 		                        <li>
@@ -429,51 +449,44 @@
 
 		                            
 		                        </li>
-		                        <li> 
-		                        <div class="row centro">
-		                        		<div class="col-md-2">
-		                        			<img src="assets/iconos/mongodb.png" alt="HTML5" width="50" height="50">	
-		                        		</div>
-		                        		<div class="col-md-10">
-		                        			<h6>MongoDB</h6>
-				                            <div class="skill-progress">
-				                                <div class="skill-percentage" data-percent="40"></div>
-				                            </div>
-		                        		</div>
-		                        </div>
-		                            
-		                        </li>
+
 		                    </ul>
 
+							<div class="row">
+							  <div class="col-md-8 col-md-offset-4">
+							  	<ul class="skills-list col-md-6 col-lg-6 offset-md-2 offset-lg-2">
 
-		                    <!-- <ul class="skills-list col-md-6">
-
-		                    <h2 class="mb-20 font-24 t-uppercase text-center">IOS Developer</h2>
-		                        <li> 
-		                            <h6>Swift</h6>
-		                            <div class="skill-progress">
-		                                <div class="skill-percentage" data-percent="50"></div>
-		                            </div>
-		                        </li>
-		                        <li> 
-		                            <h6>Cocoa</h6>
-		                            <div class="skill-progress">
-		                                <div class="skill-percentage" data-percent="50"></div>
-		                            </div>
-		                        </li>
-		                        <li> 
-		                            <h6>MapKit</h6>
-		                            <div class="skill-progress">
-		                                <div class="skill-percentage" data-percent="50"></div>
-		                            </div>
-		                        </li>
-		                        <li> 
-		                            <h6>CoreData</h6>
-		                            <div class="skill-progress">
-		                                <div class="skill-percentage" data-percent="50"></div>
-		                            </div>
-		                        </li>
-		                    </ul> -->
+				                    <h2 class="mb-20 font-24 t-uppercase text-center">Mobile Developer</h2>
+				                    <li> 
+				                        <div class="row centro">
+				                        	<div class="col-md-2">
+				                        		<img src="assets/img/ionic_logo.svg" width="50" height="50">	
+				                        	</div>
+				                        	<div class="col-md-10">
+				                        		<h6>IONIC 3</h6>
+						                        <div class="skill-progress">
+						                            <div class="skill-percentage" data-percent="70"></div>
+						                        </div>
+				                        	</div>
+				                        </div>
+				                    </li>
+				                    <li> 
+				                        <div class="row centro">
+				                        	<div class="col-md-2">
+				                        			<img src="assets/img/swift_lang.png" alt="HTML5" width="50" height="50">	
+				                        	</div>
+				                        	<div class="col-md-10">
+				                        		<h6>Swift</h6>
+						                        <div class="skill-progress">
+						                           <div class="skill-percentage" data-percent="40"></div>
+						                        </div>
+				                        	</div>
+				                        </div>
+				                    </li>
+				                </ul>
+							  </div>
+							</div>
+		                    
 		                </div>
 	                </div>
             	</section>
@@ -511,17 +524,37 @@
 	                    			<div class="experience-content">
 	                    				
 	                    				<h6 class="t-uppercase mb-10">DateGeekGroup</h6>
-	                    				<p class="color-mid">Empresa enfocada al desarrollo web y aplicaciones móviles</p>
+	                    				<p class="color-mid">CTO / Programador web</p>
 	                    				
 	                    			</div>
 	                    		</div>
 	                    	</div>
 	                    	<div class="col-md-6">
 	                    		<div class="experience-single">
-	                    			<img class="experience-img" src="assets/img/senades_logo_solo.png" alt="">
+	                    			<img class="experience-img" src="assets/img/senades_logo_solo.png"  alt="">
 	                    			<div class="experience-content">
 	                    				<h6 class="t-uppercase mb-10">Senades</h6>
-	                    				<p class="color-mid">Servicio Nacional para el Desarme en Venezuela</p>
+	                    				<p class="color-mid">Programador Web</p>
+	                    				
+	                    			</div>
+	                    		</div>
+	                    	</div>
+	                    	<div class="col-md-6">
+	                    		<div class="experience-single">
+	                    			<img class="experience-img" src="assets/img/mirak-logo.png" style="width: 90px; height: 60px;" alt="">
+	                    			<div class="experience-content">
+	                    				<h6 class="t-uppercase mb-10">Mirak</h6>
+	                    				<p class="color-mid">Programador web / Wordpress</p>
+	                    				
+	                    			</div>
+	                    		</div>
+	                    	</div>
+	                    	<div class="col-md-6">
+	                    		<div class="experience-single">
+	                    			<img class="experience-img" src="assets/img/logo_it_security.png" style="width: 90px; height: 60px;" alt="">
+	                    			<div class="experience-content">
+	                    				<h6 class="t-uppercase mb-10">Itssca</h6>
+	                    				<p class="color-mid">Programador Movil y Consultor de seguridad</p>
 	                    				
 	                    			</div>
 	                    		</div>
@@ -544,45 +577,9 @@
                     		<div class="timeline-block row row-rl-0 mtb-20 mtb-md-10">
                     			<div class="timeline-block-wrapper col-md-6 col-sm-12">
                     				<div class="timeline-content">
-	                    				<h6 class="t-uppercase mb-10">Instituto Universitario Jesús Obrero</h6>
-	                    				<p class="color-mid">TSU en informatica, formacion tecnica en las necesidades básicas que requieren los sistemas de información con orientación a la web.</p>
-									</div>
-                    			</div>
-								<span class="timeline-date">2015</span>
-                    		</div>
-                    		<div class="timeline-block row row-rl-0 mtb-20 mtb-md-10">
-                    			<div class="timeline-block-wrapper col-md-6 col-md-offset-6 col-sm-12">
-                    				<div class="timeline-content">
-	                    				<h6 class="t-uppercase mb-10">Curso de modelado de base de datos</h6>
-	                    				<p class="color-mid">Manejo y modelado de base de datos relacionales como mysql, postgresql y cualquier otro tipo de base de datos SQL</p>
-									</div>
-                    			</div>
-								<span class="timeline-date">2015</span>
-                    		</div>
-                    		<div class="timeline-block row row-rl-0 mtb-20 mtb-md-10">
-                    			<div class="timeline-block-wrapper col-md-6 col-sm-12">
-                    				<div class="timeline-content">
-	                    				<h6 class="t-uppercase mb-10">Curso de PostgreSQl</h6>
-	                    				<p class="color-mid">Conocimientos intermedios del manejador de base de datos PostgreSQl, vistas, procedimientos de almacenado y otros temas</p>
-									</div>
-                    			</div>
-								<span class="timeline-date">2015</span>
-                    		</div>
-                    		<div class="timeline-block row row-rl-0 mtb-20 mtb-md-10">
-                    			<div class="timeline-block-wrapper col-md-6 col-md-offset-6 col-sm-12">
-                    				<div class="timeline-content">
-	                    				<h6 class="t-uppercase mb-10">Curso de Introducción al Desarrollo Web: HTML y CSS</h6>
-	                    				<p class="color-mid">Curso impartido por GOOGLE - Actívate, sobre los conocimientos básicos de HTML y CSS para el desarrollo de paginas web</p>
-									</div>
-                    			</div>
-								<span class="timeline-date">2016</span>
-                    		</div>
-                    		<div class="timeline-block row row-rl-0 mtb-20 mtb-md-10">
-                    			<div class="timeline-block-wrapper col-md-6 col-sm-12">
-                    				<div class="timeline-content">
-	                    				<h6 class="t-uppercase mb-10">Curso de Symfony 3</h6>
-	                    				<p class="color-mid">Curso realizado en Udemy, sobre el uso y desarrollo de sistemas de información usando unos de los frameworks más importantes en el mundo de PHP. Symfony</p>
-	                    				<a href="https://www.udemy.com/certificate/UC-7FR96OIQ/" target="_black" class="verlink">Ver certificado</a>
+	                    				<h6 class="t-uppercase mb-10">Desarrollo web</h6>
+	                    				<p class="color-mid">Curso realizado en Platzi, sobre el desarrollo con tecnologías para el desarrollo web con: HTML5, CSS3, y Javascript</p>
+	                    				<a href="https://platzi.com/@fumeromj/html5-css3/diploma/" target="_black" class="verlink">Ver certificado</a>
 									</div>
                     			</div>
 								<span class="timeline-date">2017</span>
@@ -590,9 +587,49 @@
                     		<div class="timeline-block row row-rl-0 mtb-20 mtb-md-10">
                     			<div class="timeline-block-wrapper col-md-6 col-md-offset-6 col-sm-12">
                     				<div class="timeline-content">
-	                    				<h6 class="t-uppercase mb-10">Curso de Git y Github</h6>
-	                    				<p class="color-mid">Curso realizado en Udemy, sobre el uso de un manejador de versiones en este caso Git utilizando como alojamiento de repositorios externos GitHub.</p>
-	                    				<a href="https://www.udemy.com/certificate/UC-V3KQQO79/" target="_black" class="verlink">Ver certificado</a>
+	                    				<h6 class="t-uppercase mb-10">Responsive Web Desing</h6>
+	                    				<p class="color-mid">Curso realizado en Platzi, este curso se basa en las bases necesarias para realizar una web responsive para dispositivos de distintas resoluciones de pantallas como también para pantallas de retina. </p>
+	                    				<a href="https://platzi.com/@fumeromj/responsive-design/diploma/" target="_black" class="verlink">Ver certificado</a>
+									</div>
+                    			</div>
+								<span class="timeline-date">2017</span>
+                    		</div>
+                    		<div class="timeline-block row row-rl-0 mtb-20 mtb-md-10">
+                    			<div class="timeline-block-wrapper col-md-6 col-sm-12">
+                    				<div class="timeline-content">
+	                    				<h6 class="t-uppercase mb-10">Diseno de productos con enfoque UX</h6>
+	                    				<p class="color-mid">Curso realizado en Platzi, este curso se basa en las bases necesarias para realizar una web responsive para dispositivos de distintas resoluciones de pantallas como también para pantallas de retina. </p>
+	                    				<a href="https://platzi.com/@fumeromj/responsive-design/diploma/" target="_black" class="verlink">Ver certificado</a>
+									</div>
+                    			</div>
+								<span class="timeline-date">2018</span>
+                    		</div>
+                    		<div class="timeline-block row row-rl-0 mtb-20 mtb-md-10">
+                    			<div class="timeline-block-wrapper col-md-6 col-md-offset-6 col-sm-12">
+                    				<div class="timeline-content">
+	                    				<h6 class="t-uppercase mb-10">Angular 4</h6>
+	                    				<p class="color-mid">Curso enfocado al desarollo aplicaciones Single Page Aplication con Angular 4</p>
+	                    				<a href="#" target="_black" class="verlink">Ver certificado</a>
+									</div>
+                    			</div>
+								<span class="timeline-date">2018</span>
+                    		</div>
+                    		<div class="timeline-block row row-rl-0 mtb-20 mtb-md-10">
+                    			<div class="timeline-block-wrapper col-md-6 col-sm-12">
+                    				<div class="timeline-content">
+	                    				<h6 class="t-uppercase mb-10">IONIC 3</h6>
+	                    				<p class="color-mid">Curso enfocado al desarrollo de aplicaciones hibridas con el framework IONIC, usando Angular 5 como framework de apoyo JS</p>
+	                    				<a href="https://www.udemy.com/certificate/UC-7FR96OIQ/" target="_black" class="verlink">Ver certificado</a>
+									</div>
+                    			</div>
+								<span class="timeline-date">2018</span>
+                    		</div>
+                    		<div class="timeline-block row row-rl-0 mtb-20 mtb-md-10">
+                    			<div class="timeline-block-wrapper col-md-6 col-md-offset-6 col-sm-12">
+                    				<div class="timeline-content">
+	                    				<h6 class="t-uppercase mb-10">Curso de Symfony 3</h6>
+	                    				<p class="color-mid">Curso realizado en Udemy, sobre el uso y desarrollo de sistemas de información usando unos de los frameworks más importantes en el mundo de PHP. Symfony</p>
+	                    				<a href="https://www.udemy.com/certificate/UC-7FR96OIQ/" target="_black" class="verlink">Ver certificado</a>
 									</div>
                     			</div>
 								<span class="timeline-date">2017</span>
@@ -607,7 +644,7 @@
                     			</div>
 								<span class="timeline-date">2017</span>
                     		</div>
-                    		<div class="timeline-block row row-rl-0 mtb-20 mtb-md-10">
+                    		<!-- <div class="timeline-block row row-rl-0 mtb-20 mtb-md-10">
                     			<div class="timeline-block-wrapper col-md-6 col-md-offset-6 col-sm-12">
                     				<div class="timeline-content">
 	                    				<h6 class="t-uppercase mb-10">Curso basico de programacion</h6>
@@ -636,8 +673,110 @@
 									</div>
                     			</div>
 								<span class="timeline-date">2017</span>
-                    		</div>
+                    		</div> -->
 	                    </div>
+
+	                    <div class="t-center" style="padding-top: 5%;">
+	                    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="#" target="_black" class="" style="color:#fff;">Ver mas</a></button>
+	                    </div>
+	                </div>
+	            </section>
+	            <!-- End Education Area -->
+
+	            <!-- Start Education Area -->
+	            <section class="section education-area ptb-60" id="portafolio_area">
+	                <div class="container">
+	                    <div class="row mb-20">
+	                        <div class="col-lg-7 col-md-8 col-sm-10 col-xs-12 col-xs-center t-center mb-40">
+	                            <h2 class="mb-20 font-24 t-uppercase">Portafolio</h2>
+	                            <p class="color-mid">Ultimas actulizaciones de los casos de exito para nuestros clientes.</p>
+	                        </div>
+	                    </div>
+	                    <div class="row">
+	                    	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
+	                    		<div class="card">
+								  <img src="assets/img/coffe.jpg" alt="Avatar" style="width:100%; height: 50%;" >
+								  <div class="card-container">
+								    <h4><b>Grupo Fleet</b></h4> 
+								    <p>Architect & Engineer</p>
+								    <div class="t-center">
+								    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="#" target="_black" class="" style="color:#fff;">Ver mas</a></button>
+								    </div>
+								     
+								  </div>
+								</div>
+	                    	</div>
+
+	                    	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
+	                    		<div class="card">
+								  <img src="assets/img/coffe.jpg " alt="Avatar" style="width:100%">
+								  <div class="card-container">
+								    <h4><b>DerDieDas-Center</b></h4> 
+								    <p>Architect & Engineer</p>
+								    <div class="t-center">
+								    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="#" target="_black" class="" style="color:#fff;">Ver mas</a></button>
+								    </div>
+								  </div>
+								</div>
+	                    	</div>
+
+	                    	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
+	                    		<div class="card">
+								  <img src="assets/img/coffe.jpg " alt="Avatar">
+								  <div class="card-container">
+								    <h4><b>CoinGroup</b></h4> 
+								    <p>Architect & Engineer</p>
+								    <div class="t-center">
+								    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="#" target="_black" class="" style="color:#fff;">Ver mas</a></button>
+								    </div>
+								  </div>
+								</div>
+	                    	</div>
+	                    	
+	                    </div>
+
+	                    <!-- <div class="row" style="padding-top: 3%;">
+	                    	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
+	                    		<div class="card">
+								  <img src="assets/img/coffe.jpg " alt="Avatar" style="width:100%">
+								  <div class="card-container">
+								    <h4><b>John Doe</b></h4> 
+								    <p>Architect & Engineer</p>
+								    <div class="t-center">
+								    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="#" target="_black" class="" style="color:#fff;">Ver mas</a></button>
+								    </div>
+								  </div>
+								</div>
+	                    	</div>
+
+	                    	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
+	                    		<div class="card">
+								  <img src="assets/img/coffe.jpg " alt="Avatar" style="width:100%">
+								  <div class="card-container">
+								    <h4><b>John Doe</b></h4> 
+								    <p>Architect & Engineer</p> 
+								    <div class="t-center">
+								    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="#" target="_black" class="" style="color:#fff;">Ver mas</a></button>
+								    </div>
+								  </div>
+								</div>
+	                    	</div>
+
+	                    	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
+	                    		<div class="card">
+								  <img src="assets/img/coffe.jpg " alt="Avatar" style="width:100%">
+								  <div class="card-container">
+								    <h4><b>John Doe</b></h4> 
+								    <p>Architect & Engineer</p> 
+								    <div class="t-center">
+								    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="#" target="_black" class="" style="color:#fff; font-size: 15px;">Ver mas</a></button>
+								    </div>
+								  </div>
+								</div>
+	                    	</div>
+	                    	
+	                    </div> -->
+
 	                </div>
 	            </section>
 	            <!-- End Education Area -->

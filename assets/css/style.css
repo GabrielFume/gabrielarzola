@@ -1546,6 +1546,12 @@
   color: #2196f3;
 }
 
+.verMas{
+  display: flex;
+  justify-content: center;
+  color: #2196f3;
+  font-size: 20px;
+}
 @media screen and (max-width: 984px){
   .centro{
     text-align: center;
