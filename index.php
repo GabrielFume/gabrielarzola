@@ -735,47 +735,6 @@
 	                    	
 	                    </div>
 
-	                    <!-- <div class="row" style="padding-top: 3%;">
-	                    	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
-	                    		<div class="card">
-								  <img src="assets/img/coffe.jpg " alt="Avatar" style="width:100%">
-								  <div class="card-container">
-								    <h4><b>John Doe</b></h4> 
-								    <p>Architect & Engineer</p>
-								    <div class="t-center">
-								    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="#" target="_black" class="" style="color:#fff;">Ver mas</a></button>
-								    </div>
-								  </div>
-								</div>
-	                    	</div>
-
-	                    	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
-	                    		<div class="card">
-								  <img src="assets/img/coffe.jpg " alt="Avatar" style="width:100%">
-								  <div class="card-container">
-								    <h4><b>John Doe</b></h4> 
-								    <p>Architect & Engineer</p> 
-								    <div class="t-center">
-								    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="#" target="_black" class="" style="color:#fff;">Ver mas</a></button>
-								    </div>
-								  </div>
-								</div>
-	                    	</div>
-
-	                    	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
-	                    		<div class="card">
-								  <img src="assets/img/coffe.jpg " alt="Avatar" style="width:100%">
-								  <div class="card-container">
-								    <h4><b>John Doe</b></h4> 
-								    <p>Architect & Engineer</p> 
-								    <div class="t-center">
-								    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="#" target="_black" class="" style="color:#fff; font-size: 15px;">Ver mas</a></button>
-								    </div>
-								  </div>
-								</div>
-	                    	</div>
-	                    	
-	                    </div> -->
 
 	                </div>
 	            </section>
