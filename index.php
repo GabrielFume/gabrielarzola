@@ -599,7 +599,7 @@
                     				<div class="timeline-content">
 	                    				<h6 class="t-uppercase mb-10">Diseno de productos con enfoque UX</h6>
 	                    				<p class="color-mid">Curso realizado en Platzi, este curso se basa en las bases necesarias para realizar una web responsive para dispositivos de distintas resoluciones de pantallas como también para pantallas de retina. </p>
-	                    				<a href="https://platzi.com/@fumeromj/responsive-design/diploma/" target="_black" class="verlink">Ver certificado</a>
+	                    				<a href="https://platzi.com/@fumeromj/curso/diseno-interfaces-ux/diploma/" target="_black" class="verlink">Ver certificado</a>
 									</div>
                     			</div>
 								<span class="timeline-date">2018</span>
@@ -609,7 +609,7 @@
                     				<div class="timeline-content">
 	                    				<h6 class="t-uppercase mb-10">Angular 4</h6>
 	                    				<p class="color-mid">Curso enfocado al desarollo aplicaciones Single Page Aplication con Angular 4</p>
-	                    				<a href="#" target="_black" class="verlink">Ver certificado</a>
+	                    				<a href="https://platzi.com/@fumeromj/curso/angular/diploma/" target="_black" class="verlink">Ver certificado</a>
 									</div>
                     			</div>
 								<span class="timeline-date">2018</span>
@@ -619,7 +619,7 @@
                     				<div class="timeline-content">
 	                    				<h6 class="t-uppercase mb-10">IONIC 3</h6>
 	                    				<p class="color-mid">Curso enfocado al desarrollo de aplicaciones hibridas con el framework IONIC, usando Angular 5 como framework de apoyo JS</p>
-	                    				<a href="https://www.udemy.com/certificate/UC-7FR96OIQ/" target="_black" class="verlink">Ver certificado</a>
+	                    				<a href="#" target="_black" class="verlink">Ver certificado</a>
 									</div>
                     			</div>
 								<span class="timeline-date">2018</span>
@@ -695,12 +695,12 @@
 	                    <div class="row">
 	                    	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
 	                    		<div class="card">
-								  <img src="assets/img/coffe.jpg" alt="Avatar" style="width:100%; height: 50%;" >
+								  <img src="assets/img/grupofleet.jpg" alt="Avatar" style="width:100%; height: 50%;" >
 								  <div class="card-container">
 								    <h4><b>Grupo Fleet</b></h4> 
-								    <p>Architect & Engineer</p>
+								    <p></p>
 								    <div class="t-center">
-								    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="#" target="_black" class="" style="color:#fff;">Ver mas</a></button>
+								    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="http://grupofleet.com/" target="_black" class="" style="color:#fff;">Ver mas</a></button>
 								    </div>
 								     
 								  </div>
@@ -709,12 +709,12 @@
 
 	                    	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
 	                    		<div class="card">
-								  <img src="assets/img/coffe.jpg " alt="Avatar" style="width:100%">
+								  <img src="assets/img/DerDieDas-center.jpg " alt="Avatar" style="width:100%">
 								  <div class="card-container">
 								    <h4><b>DerDieDas-Center</b></h4> 
-								    <p>Architect & Engineer</p>
+								    <p></p>
 								    <div class="t-center">
-								    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="#" target="_black" class="" style="color:#fff;">Ver mas</a></button>
+								    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="https://gabrielfume.github.io/derdiedas/" target="_black" class="" style="color:#fff;">Ver mas</a></button>
 								    </div>
 								  </div>
 								</div>
@@ -722,12 +722,12 @@
 
 	                    	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
 	                    		<div class="card">
-								  <img src="assets/img/coffe.jpg " alt="Avatar">
+								  <img src="assets/img/bithonor.jpg " alt="Avatar">
 								  <div class="card-container">
-								    <h4><b>CoinGroup</b></h4> 
-								    <p>Architect & Engineer</p>
+								    <h4><b>BitHonor</b></h4> 
+								    <p></p>
 								    <div class="t-center">
-								    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="#" target="_black" class="" style="color:#fff;">Ver mas</a></button>
+								    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="https://gabrielfume.github.io/BitHonor/" target="_black" class="" style="color:#fff;">Ver mas</a></button>
 								    </div>
 								  </div>
 								</div>
