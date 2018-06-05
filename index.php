@@ -519,45 +519,53 @@
 	                    </div>
 	                    <div class="row row-tb-15">
 	                    	<div class="col-md-6">
-	                    		<div class="experience-single">
-	                    			<img class="experience-img" src="assets/img/dategeek.jpg" alt="">
-	                    			<div class="experience-content">
-	                    				
-	                    				<h6 class="t-uppercase mb-10">DateGeekGroup</h6>
-	                    				<p class="color-mid">CTO / Programador web</p>
-	                    				
-	                    			</div>
-	                    		</div>
+	                    		<a href="http://dategeekgroup.com/" target="_black">
+		                    		<div class="experience-single">
+		                    			<img class="experience-img" src="assets/img/dategeek.jpg" alt="">
+		                    			<div class="experience-content">
+		                    				
+		                    				<h6 class="t-uppercase mb-10">DateGeekGroup</h6>
+		                    				<p class="color-mid">CTO / Programador web</p>
+		                    				
+		                    			</div>
+		                    		</div>
+	                    		</a>
 	                    	</div>
 	                    	<div class="col-md-6">
-	                    		<div class="experience-single">
-	                    			<img class="experience-img" src="assets/img/senades_logo_solo.png"  alt="">
-	                    			<div class="experience-content">
-	                    				<h6 class="t-uppercase mb-10">Senades</h6>
-	                    				<p class="color-mid">Programador Web</p>
-	                    				
-	                    			</div>
-	                    		</div>
+	                    		<a href="http://senades.gob.ve/" target="_black">
+		                    		<div class="experience-single">
+		                    			<img class="experience-img" src="assets/img/senades_logo_solo.png"  alt="">
+		                    			<div class="experience-content">
+		                    				<h6 class="t-uppercase mb-10">Senades</h6>
+		                    				<p class="color-mid">Programador Web</p>
+		                    				
+		                    			</div>
+		                    		</div>
+	                    		</a>
 	                    	</div>
 	                    	<div class="col-md-6">
-	                    		<div class="experience-single">
-	                    			<img class="experience-img" src="assets/img/mirak-logo.png" style="width: 90px; height: 60px;" alt="">
-	                    			<div class="experience-content">
-	                    				<h6 class="t-uppercase mb-10">Mirak</h6>
-	                    				<p class="color-mid">Programador web / Wordpress</p>
-	                    				
-	                    			</div>
-	                    		</div>
+	                    		<a href="http://mirak.mx/" target="_black">
+		                    		<div class="experience-single">
+		                    			<img class="experience-img" src="assets/img/mirak-logo.png" style="width: 90px; height: 60px;" alt="">
+		                    			<div class="experience-content">
+		                    				<h6 class="t-uppercase mb-10">Mirak</h6>
+		                    				<p class="color-mid">Programador web / Wordpress</p>
+		                    				
+		                    			</div>
+		                    		</div>
+	                    		</a>
 	                    	</div>
 	                    	<div class="col-md-6">
-	                    		<div class="experience-single">
-	                    			<img class="experience-img" src="assets/img/logo_it_security.png" style="width: 90px; height: 60px;" alt="">
-	                    			<div class="experience-content">
-	                    				<h6 class="t-uppercase mb-10">Itssca</h6>
-	                    				<p class="color-mid">Programador Movil y Consultor de seguridad</p>
-	                    				
-	                    			</div>
-	                    		</div>
+	                    		<a href="http://www.itssca.net/" target="_black">
+		                    		<div class="experience-single">
+		                    			<img class="experience-img" src="assets/img/logo_it_security.png" style="width: 90px; height: 60px;" alt="">
+		                    			<div class="experience-content">
+		                    				<h6 class="t-uppercase mb-10">Itssca</h6>
+		                    				<p class="color-mid">Programador Movil y Consultor de seguridad</p>
+		                    				
+		                    			</div>
+		                    		</div>
+	                    		</a>
 	                    	</div>
 	                    </div>   
 	                </div>
@@ -619,7 +627,7 @@
                     				<div class="timeline-content">
 	                    				<h6 class="t-uppercase mb-10">IONIC 3</h6>
 	                    				<p class="color-mid">Curso enfocado al desarrollo de aplicaciones hibridas con el framework IONIC, usando Angular 5 como framework de apoyo JS</p>
-	                    				<a href="#" target="_black" class="verlink">Ver certificado</a>
+	                    				<a href="https://udemy-certificate.s3.amazonaws.com/image/UC-WSAL6OSE.jpg" target="_black" class="verlink">Ver certificado</a>
 									</div>
                     			</div>
 								<span class="timeline-date">2018</span>
