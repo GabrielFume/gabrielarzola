@@ -703,14 +703,13 @@
 	                    <div class="row">
 	                    	<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
 	                    		<div class="card">
-								  <img src="assets/img/grupofleet.jpg" alt="Avatar" style="width:100%; height: 50%;" >
+								  <img src="assets/img/Ciexpro.png" alt="Avatar" style="width:100%; height: 50%;" >
 								  <div class="card-container">
-								    <h4><b>Grupo Fleet</b></h4> 
+								    <h4><b>Ciexpro</b></h4> 
 								    <p></p>
 								    <div class="t-center">
-								    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="http://grupofleet.com/" target="_black" class="" style="color:#fff;">Ver mas</a></button>
+								    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="https://gabrielfume.github.io/ciexpro-v" target="_black" class="" style="color:#fff;">Ver mas</a></button>
 								    </div>
-								     
 								  </div>
 								</div>
 	                    	</div>
@@ -719,7 +718,7 @@
 	                    		<div class="card">
 								  <img src="assets/img/DerDieDas-center.jpg " alt="Avatar" style="width:100%">
 								  <div class="card-container">
-								    <h4><b>DerDieDas-Center</b></h4> 
+								    <h4><b>DerDieDas-Center</b></h4>
 								    <p></p>
 								    <div class="t-center">
 								    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="https://gabrielfume.github.io/derdiedas/" target="_black" class="" style="color:#fff;">Ver mas</a></button>
@@ -732,7 +731,7 @@
 	                    		<div class="card">
 								  <img src="assets/img/bithonor.jpg " alt="Avatar">
 								  <div class="card-container">
-								    <h4><b>BitHonor</b></h4> 
+								    <h4><b>BitHonor</b></h4>
 								    <p></p>
 								    <div class="t-center">
 								    	<button class="btn btn-lg btn-rounded hire-me-btn"><a href="https://gabrielfume.github.io/BitHonor/" target="_black" class="" style="color:#fff;">Ver mas</a></button>
