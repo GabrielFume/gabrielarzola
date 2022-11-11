@@ -156,13 +156,6 @@
                             <li>
                                 <a class="page-scroll" href="#education_area" title="Education">Educacion</a>
                             </li>
-                            <!--li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Paginas</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="portfolio.html" title="Portfolio">Portafolio</a></li>
-                                    <li><a href="single_work.html" title="Single Portfolio">Blog</a></li>
-                                </ul>
-                            </li-->
                             <li>
                                 <a class="page-scroll" href="#contacto" title="Contact Us">Contacto</a>
                             </li>
@@ -219,8 +212,8 @@
                                     </p>
                                     <ul class="col-md-12 profile-info-list color-mid mb-30">
                                         <li><span>Nombre : </span>Gabriel Arzola</li>
-                                        <li><span>Edad : </span>28 años</li>
-                                        <li><span>Experiencia : </span>6 años</li>
+                                        <li><span>Edad : </span>29 años</li>
+                                        <li><span>Experiencia : </span>5 años</li>
                                         <li><span>Email : </span>gabrielgac75@gmail.com</li>
                                         <li>
                                             <span>Telefono : </span><a href="tel:+584127243202">+58 0412-724-3202</a>
@@ -230,7 +223,7 @@
                                     </ul>
                                     <div class="row">
                                         <div class="col-md-3">
-                                            <a href="assets/img/Curriculum_Gabriel_Arzola.pdf" target="_blank" class=""><img src="assets/img/Cv-Gabriel-Arzola-2021.pdf" alt="" width="50"> Ver Curriculum</a>
+                                            <a href="assets/img/Cv-Gabriel-Arzola-2021.pdf" target="_blank" class=""><img src="assets/img/Cv-Gabriel-Arzola-2021.pdf" alt="" width="50"> Ver Curriculum</a>
                                         </div>
                                         <div class="col-md-3">
                                             <a href="https://www.linkedin.com/in/gabrielarzola-programador/" target="_blank" class=""><img src="assets/iconos/linkedin.svg" alt="" width="50" /> Ver linkedin</a>
@@ -265,65 +258,23 @@
                                         </div>
                                     </div>
                                 </li>
-                                <!-- <li>
-		                        <div class="row centro">
-		                        		<div class="col-md-2">
-		                        			<img src="assets/iconos/CSS3.svg" alt="HTML5" width="80" height="80">	
-		                        		</div>
-		                        		<div class="col-md-10">
-		                        			<h6>CSS 3</h6>
-				                            <div class="skill-progress">
-				                                <div class="skill-percentage" data-percent="60"></div>
-				                            </div>
-		                        		</div>
-		                        	</div> 
-		                            
-		                        </li> -->
-                                <!--  <li>
-		                        <div class="row centro">
-		                        		<div class="col-md-2">
-		                        			<img src="assets/iconos/javascript.png" alt="HTML5" width="80" height="80">	
-		                        		</div>
-		                        		<div class="col-md-10">
-		                        			<h6>Javascript</h6>
-				                            <div class="skill-progress">
-				                                <div class="skill-percentage" data-percent="60"></div>
-				                            </div>
-		                        		</div>
-		                        	</div> 
-		                            
-		                        </li> -->
                                 <li>
                                     <div class="row centro sep">
                                         <div class="col-md-2">
-                                            <img src="assets/iconos/tailwindcss.svg" alt="HTML5" width="80" height="80" />
+                                            <img src="assets/iconos/tailwindcss.svg" alt="Tailwind" width="80" height="80" />
                                         </div>
                                         <div class="col-md-10">
                                             <h6>Bootstrap / Materialize / Tailwind CSS</h6>
                                         </div>
                                     </div>
                                 </li>
-                                <!-- <li>
-		                        <div class="row centro">
-		                        		<div class="col-md-2">
-		                        			<img src="assets/iconos/materialize.png" alt="HTML5" width="80" height="80">	
-		                        		</div>
-		                        		<div class="col-md-10">
-		                        			<h6>Materialize</h6>
-				                            <div class="skill-progress">
-				                                <div class="skill-percentage" data-percent="60"></div>
-				                            </div>
-		                        		</div>
-		                        	</div>  
-		                            
-		                        </li> -->
                                 <li>
                                     <div class="row centro sep">
                                         <div class="col-md-2">
-                                            <img src="assets/iconos/angularjs.png" alt="HTML5" width="80" height="80" />
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="HTML5" width="80" height="80" />
                                         </div>
                                         <div class="col-md-10">
-                                            <h6>Angular / Gatsby</h6>
+                                            <h6>React / Gatsby</h6>
                                         </div>
                                     </div>
                                 </li>
@@ -630,14 +581,12 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                 <div class="card">
-                                    <img src="assets/img/casacanela.jpg" alt="Avatar" style="width: 100%; height: 80%" />
+                                    <a href="https://ansetipet.cl"><img src="assets/img/ansetipet.webp" alt="Avatar"  /></a>
                                     <div class="card-container">
-                                        <h4><b>Casa Canela</b></h4>
+                                        <h4 style="text-align: center;"><b>Ansetipet</b></h4>
                                         <p></p>
                                         <div class="t-center">
-                                            <button class="btn btn-lg btn-rounded hire-me-btn">
-                        <a href="https://gabrielfume.github.io/ciexpro-v" target="_black" class=""
-                          style="color: #fff">Ver mas</a>
+                                            <button class="btn btn-lg btn-rounded hire-me-btn"><a href="https://ansetipet.cl" target="_black" class="" style="color: #fff; text-align: center;">Ver mas</a>
                       </button>
                                         </div>
                                     </div>
@@ -646,9 +595,9 @@
 
                             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                 <div class="card">
-                                    <img src="assets/img/anitakatz.jpg " alt="Avatar" style="width: 100%" />
+                                    <a href="https://anitakatz.com/"><img src="assets/img/anitakatz.jpg " alt="Avatar" style="width: 100%" /></a>
                                     <div class="card-container">
-                                        <h4><b>Anita Katz</b></h4>
+                                        <h4 style="text-align: center;"><b>Anita Katz</b></h4>
                                         <p></p>
                                         <div class="t-center">
                                             <button class="btn btn-lg btn-rounded hire-me-btn">
@@ -663,7 +612,7 @@
                                 <div class="card">
                                     <img src="assets/img/bithonor.jpg " alt="Avatar" />
                                     <div class="card-container">
-                                        <h4><b>BitHonor</b></h4>
+                                        <h4 style="text-align: center;"><b>BitHonor</b></h4>
                                         <p></p>
                                         <div class="t-center">
                                             <button class="btn btn-lg btn-rounded hire-me-btn">
