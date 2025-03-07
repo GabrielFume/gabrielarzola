@@ -41,7 +41,7 @@
         /* Generamos la cabecera del correo. */
         $headers = 'MIME-Version: 1.0' . "\r\n";
         $headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
-        $headers .= 'From: gabrielarzola.com <no-reply@gabrielarzola.com>' . "\r\n";
+        // $headers .= 'From: gabrielarzola.com <no-reply@gabrielarzola.com>' . "\r\n";
 
         /* Enviamos el correo guardando su estado. */
         $enviado = mail('gabrielgac75@gmail.com', $asunto, $contenido, $headers);
